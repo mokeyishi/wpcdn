@@ -1,0 +1,62 @@
+/* Import CDN-Remote Images Plugin https://atakanau.blogspot.com/2020/10/import-cdn-remote-images-wp-plugin.html v2.1.2 */
+a.atakanau{content:"https://atakanau.blogspot.com/2020/10/import-cdn-remote-images-wp-plugin.html"}
+.tabarea-aauicri .tab-pane {
+	display: none;
+}
+.tabarea-aauicri .tab-pane.active {
+	display: block;
+}
+.aauicri-urls {
+	width: 100%;
+}
+
+.aauicri-infobar{
+	min-width: 10em;
+	max-width: 12em;
+	border: 1px solid #ccd0d4;
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	background: #fff;
+	padding: 1em;
+	margin-left: 1em;
+	text-align: left;
+}
+
+.aauicri-infobar>span{
+	margin: auto;
+}
+
+.aauicri-frame0{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.aauicri-frame0 td{
+	vertical-align:top;
+}
+
+.aauicri-importprogressbar-0 {
+	display: inline-block;
+}
+
+@media only screen and (max-width:782px){
+	.aauicri-frame0 td, .aauicri-frame0 th{
+		display: block;
+		width: auto;
+	}
+}
+.aauicri-infobar a i{
+	font-size: 18px;
+	line-height: 21px;
+	text-decoration-line: unset;
+}
+.aauicri-infobar.anim a{
+	animation: blinkingEffect 3s infinite;
+}
+@keyframes blinkingEffect{
+	0%		{ color: #0073aa;background-color: #fff;}
+	10%		{ color: #0073aa;background-color: #fff;}
+	30%		{ color: #000000;background-color: #ff8;}
+	50%		{ color: #00334d;background-color: #fff;}
+	100%	{ color: #0073aa;background-color: #fff;}
+}
+.description-wide{width:100%;}

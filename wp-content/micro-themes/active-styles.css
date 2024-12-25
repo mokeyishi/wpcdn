@@ -1,0 +1,25 @@
+/*  MICROTHEMER STYLES  */
+
+
+/*= General =================== */
+
+/** General >> Strong **/
+.wizhi-selects > div:nth-of-type(1) > strong {
+	color: rgb(255, 255, 255) !important;
+}
+
+/** General >> Strong _2 **/
+.wizhi-selects > div:nth-of-type(2) > strong {
+	color: rgb(255, 255, 255) !important;
+}
+
+/** General >> Selected **/
+.wizhi-selects > div:nth-of-type(1) > .selected {
+	
+}
+
+/** General >> Selected _2 **/
+.wizhi-selects > div:nth-of-type(2) > .selected {
+	
+}
+

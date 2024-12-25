@@ -1,0 +1,120 @@
+.wp-block {} /*  Ensures MT files load in FSE */
+
+/*= Archive =================== */
+
+/** Archive >> Strong **/
+.wizhi-selects > div:nth-of-type(1) {
+	padding-top: 18px !important;
+	padding-bottom: 18px !important;
+	margin-bottom: 0 !important;
+	border-top: 1px solid rgb(35, 35, 41) !important;
+	border-color: rgb(35, 35, 41) !important;
+}
+
+/** Archive >> Strong _3 **/
+.wizhi-selects > div:nth-of-type(1) > strong {
+	font-weight: 400 !important;
+	background-color: rgb(50, 50, 60) !important;
+	padding: 10px 20px 10px 20px !important;
+	border-radius: 5px !important;
+}
+
+/** Archive >> Wizhi select (#2) **/
+.wizhi-selects .wizhi-select:nth-of-type(2) {
+	padding-top: 18px !important;
+	padding-bottom: 18px !important;
+	border-bottom-color: rgb(35, 35, 41) !important;
+}
+
+/** Archive >> Strong _2 **/
+.wizhi-selects > div:nth-of-type(2) > strong {
+	font-weight: 400 !important;
+	background-color: rgb(50, 50, 60) !important;
+	padding: 10px 20px 10px 20px !important;
+	border-radius: 5px !important;
+}
+
+/** Archive >> Wizhi btns **/
+.wizhi-btns, 
+.wizhi-form {
+	margin-right: 200px !important;
+	margin-left: 200px !important;
+}
+
+/** Archive >> Wizhi btn default **/
+#main .wizhi-btn-default {
+	color: rgb(255, 255, 255) !important;
+	background-color: rgb(0, 0, 0) !important;
+	padding: 5px 15px 5px 15px !important;
+	border-color: rgb(35, 35, 41) !important;
+	border-right-width: 0 !important;
+}
+
+/** Archive >> Wizhi btn close **/
+#main .wizhi-btn-close {
+	color: rgb(255, 255, 255) !important;
+	background-color: rgb(0, 0, 0) !important;
+	padding: 5px 10px 5px 10px !important;
+	border-color: rgb(35, 35, 41) !important;
+}
+#main .wizhi-btn-close:hover {
+	color: #ff2a14 !important;
+}
+
+/** Archive >> Main **/
+#main {
+	background-color: rgb(0, 0, 0) !important;
+}
+
+/** Archive >> Wizhi selects **/
+#main .wizhi-selects {
+	color: rgb(255, 255, 255) !important;
+	font-size: 14px !important;
+	font-weight: 700 !important;
+	background-color: rgb(26, 26, 30) !important;
+	padding: 30px 15px 30px 15px !important;
+	margin-right: 200px !important;
+	margin-left: 200px !important;
+	border-radius: 5px !important;
+}
+
+/** Archive >> Gb container a15e4aee **/
+.wizhi-select a {
+	color: #FFFFFFDE !important;
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	padding: 10px 20px 10px 20px !important;
+	margin-bottom: 0 !important;
+}
+.wizhi-select a:hover {
+	color: #ff2a14 !important;
+}
+
+
+/*( < 1200 )*/
+@media (max-width: 1199.98px) {
+	/** Archive >> Wizhi selects **/
+	#main .wizhi-selects {
+	margin-right: 10px !important;
+	margin-left: 10px !important;
+}
+
+	/** Archive >> Wizhi btns **/
+	.wizhi-btns, 
+.wizhi-form {
+	margin-right: 20px !important;
+	margin-left: 20px !important;
+}
+
+}
+
+
+/*( < 480 )*/
+@media (max-width: 479.98px) {
+	/** Archive >> Gb container a15e4aee **/
+	.wizhi-select a {
+	line-height: 3.5 !important;
+}
+
+}
+

@@ -1,0 +1,71 @@
+.wp-block {} /*  (.wp-block {} ensures MT files load in Gutenberg editor) */
+/*  MICROTHEMER STYLES  */
+
+/*= Animations ================ */
+
+@-webkit-keyframes flash {
+  from, 50%, to {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  from, 50%, to {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+
+/*= General =================== */
+
+/** General >> Strong **/
+.wizhi-selects > div:nth-of-type(1) > strong {
+	color: rgb(255, 255, 255) !important;
+}
+
+/** General >> Strong _2 **/
+.wizhi-selects > div:nth-of-type(2) > strong {
+	color: rgb(255, 255, 255) !important;
+}
+
+/** General >> Selected **/
+.wizhi-selects > div:nth-of-type(1) > .selected {
+	color: rgb(145, 204, 255) !important;
+}
+
+/** General >> Selected _2 **/
+.wizhi-selects > div:nth-of-type(2) > .selected {
+	color: rgb(145, 204, 255) !important;
+}
+
+/** General >> Wizhi btn default **/
+#main .wizhi-btn-default {
+	color: rgb(255, 255, 255) !important;
+	background-color: rgba(239, 239, 239, 0) !important;
+	padding: 5px 10px 5px 10px !important;
+}
+
+/** General >> Wizhi btn close **/
+#main .wizhi-btn-close {
+	color: rgb(255, 255, 255) !important;
+	background-color: rgba(239, 239, 239, 0) !important;
+	padding: 5px 10px 5px 10px !important;
+	margin-right: 10px !important;
+}
+
+/** General >> Page header **/
+#main .page-header {
+	-webkit-animation-name: flash !important;
+	animation-name: flash !important;
+	-webkit-animation-duration: 0.5s !important;
+	animation-duration: 0.5s !important;
+}
+

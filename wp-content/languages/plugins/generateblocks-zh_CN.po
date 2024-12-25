@@ -1,0 +1,200 @@
+# Translation of Plugins - GenerateBlocks - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - GenerateBlocks - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-07-11 20:42:57+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - GenerateBlocks - Stable (latest release)\n"
+
+#: includes/dashboard.php:252
+msgid "Buttons Documentation"
+msgstr "按钮文档"
+
+#: includes/dashboard.php:230
+msgid "Grid Documentation"
+msgstr "网格文档"
+
+#: includes/dashboard.php:219
+msgid "Container Documentation"
+msgstr "容器文档"
+
+#: includes/dashboard.php:241
+msgid "Headline Documentation"
+msgstr "标题文档"
+
+#: includes/class-rest.php:189
+msgid "CSS files regenerated."
+msgstr "重新生成的CSS文件。"
+
+#: includes/class-rest.php:169
+msgid "No changes found."
+msgstr "未找到更改。"
+
+#. translators: Shape number
+#: includes/functions.php:774 includes/functions.php:779
+#: includes/functions.php:784 includes/functions.php:789
+#: includes/functions.php:794 includes/functions.php:799
+#: includes/functions.php:804 includes/functions.php:809
+#: includes/functions.php:814 includes/functions.php:819
+#: includes/functions.php:824 includes/functions.php:829
+msgid "Triangle %s"
+msgstr "三角形 %s"
+
+#: includes/functions.php:770
+msgid "Triangles"
+msgstr "三角形"
+
+#. translators: Shape number
+#: includes/functions.php:749 includes/functions.php:754
+#: includes/functions.php:759 includes/functions.php:764
+msgid "Curve %s"
+msgstr "曲线 %s"
+
+#: includes/functions.php:745
+msgid "Curves"
+msgstr "曲线"
+
+#. translators: Shape number
+#: includes/functions.php:739
+msgid "Angle %s"
+msgstr "角 %s"
+
+#: includes/functions.php:735
+msgid "Angles"
+msgstr "角"
+
+#: includes/functions.php:690
+msgid "Waves"
+msgstr "波形"
+
+#. translators: Shape number
+#: includes/functions.php:694 includes/functions.php:699
+#: includes/functions.php:704 includes/functions.php:709
+#: includes/functions.php:714 includes/functions.php:719
+#: includes/functions.php:724 includes/functions.php:729
+msgid "Wave %s"
+msgstr "波形%s"
+
+#: includes/class-rest.php:176
+msgid "Settings saved."
+msgstr "设置已保存。"
+
+#. Plugin Name of the plugin
+#: plugin.php includes/dashboard.php:20 includes/dashboard.php:21
+#: includes/general.php:197 dist/editor-sidebar.js:1
+#: src/editor-sidebar/index.js:53 src/editor-sidebar/index.js:64
+msgid "GenerateBlocks"
+msgstr "GenerateBlocks"
+
+#. Plugin URI of the plugin
+#: plugin.php
+msgid "https://generateblocks.com"
+msgstr "https://generateblocks.com"
+
+#. Description of the plugin
+#: plugin.php includes/dashboard.php:198
+msgid "A small collection of lightweight WordPress blocks that can accomplish nearly anything."
+msgstr "一款简单、轻量话，且可以达成大多数目标的 WordPress 区块套件。"
+
+#. Author of the plugin
+#: plugin.php
+msgid "Tom Usborne"
+msgstr "Tom Usborne"
+
+#. Author URI of the plugin
+#: plugin.php
+msgid "https://tomusborne.com"
+msgstr "https://tomusborne.com"
+
+#: includes/class-settings.php:51 includes/class-settings.php:52
+#: includes/dashboard.php:142 dist/dashboard.js:1 src/dashboard.js:108
+msgid "Settings"
+msgstr "设置"
+
+#: includes/dashboard.php:29 includes/dashboard.php:30
+#: includes/dashboard.php:137
+msgid "Dashboard"
+msgstr "仪表盘"
+
+#: includes/dashboard.php:201
+msgid "Learn More"
+msgstr "了解更多"
+
+#: includes/dashboard.php:202 dist/blocks.js:3 src/hoc/withDocumentation.js:64
+msgid "Documentation"
+msgstr "文档"
+
+#: includes/class-render-blocks.php:59 includes/dashboard.php:215
+#: dist/blocks.js:4 dist/blocks.js:12 src/blocks/container/block.js:36
+#: src/blocks/container/block.js:70
+#: src/blocks/container/components/LegacyLayoutControls.js:43
+msgid "Container"
+msgstr "容器"
+
+#: includes/dashboard.php:216 dist/blocks.js:12
+#: src/blocks/container/block.js:37
+msgid "Organize your content into rows and sections."
+msgstr "将您的内容组织成行和节。"
+
+#: includes/class-render-blocks.php:79 includes/dashboard.php:226
+#: dist/blocks.js:1 dist/blocks.js:4 src/blocks/grid/block.js:32
+#: src/blocks/grid/block.js:60 src/blocks/grid/components/LayoutSelector.js:60
+msgid "Grid"
+msgstr "网格"
+
+#: includes/dashboard.php:227 dist/blocks.js:4 src/blocks/grid/block.js:33
+msgid "Create advanced layouts with flexible grids."
+msgstr "使用灵活的网格创建高级布局。"
+
+#: includes/class-render-blocks.php:113 includes/dashboard.php:237
+#: dist/blocks.js:6 dist/blocks.js:24 src/blocks/headline/block.js:42
+#: src/blocks/headline/block.js:81
+#: src/blocks/headline/components/HeadlineContentRenderer.js:95
+msgid "Headline"
+msgstr "标题"
+
+#: includes/dashboard.php:238 dist/blocks.js:24 src/blocks/headline/block.js:43
+msgid "Craft text-rich content with advanced typography."
+msgstr "使用高级排版制作丰富的文本内容，"
+
+#: includes/class-render-blocks.php:105 dist/blocks.js:12
+#: src/blocks/button-container/block.js:33
+#: src/blocks/button-container/block.js:62
+msgid "Buttons"
+msgstr "按钮"
+
+#: includes/dashboard.php:249 dist/blocks.js:12
+#: src/blocks/button-container/block.js:34 src/blocks/button/block.js:42
+msgid "Drive conversions with beautiful buttons."
+msgstr "使用漂亮的按钮推动转化。"
+
+#: includes/dashboard.php:283
+msgid "Looking for a WordPress theme? GenerateBlocks and GeneratePress are built with the same principles in mind and complement each other perfectly."
+msgstr "正在寻找 WordPress 主题吗？ GenerateBlocks 和 GeneratePress 在构建时遵循了相同的原则并实现完美互补。"
+
+#: includes/dashboard.php:286
+msgid "Downloads"
+msgstr "下载"
+
+#: includes/dashboard.php:295
+msgid "Active websites"
+msgstr "激活网站"
+
+#: includes/dashboard.php:299
+msgid "Happy customers"
+msgstr "满意的客户"
+
+#: includes/dashboard.php:302
+msgid "Learn more"
+msgstr "了解更多"
+
+#: includes/class-render-blocks.php:121 includes/dashboard.php:248
+#: dist/blocks.js:12 src/blocks/button/block.js:41
+#: src/blocks/button/block.js:77
+msgid "Button"
+msgstr "按钮"

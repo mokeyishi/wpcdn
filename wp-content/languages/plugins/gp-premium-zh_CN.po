@@ -1,0 +1,4188 @@
+# Translation of GP Premium in Chinese (China)
+# This file is distributed under the same license as the GP Premium package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-11-30 19:39:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: zh_CN\n"
+"Project-Id-Version: GP Premium\n"
+
+#. translators: Version number
+#: dist/site-library.js:7
+msgid "Requires GeneratePress %s."
+msgstr "需要 GeneratePress %s."
+
+#: dist/block-elements.js:3
+msgid "Loop Template"
+msgstr "循环模板"
+
+#: elements/class-conditions.php:56
+msgid "Paginated Results"
+msgstr "分页结果"
+
+#. translators: URL to the Elements dashboard.
+#: blog/functions/customizer.php:52
+msgid "This page is using a <a href=\"%s\">Loop Template Element</a>. All options can be found within that Element."
+msgstr "此页面正在使用<a href=\"%s\">循环模板元素</a>. 所有选项都可以在该元素中找到。"
+
+#. translators: Site library site built by "author name"
+#: dist/site-library.js:9
+msgid "Built by"
+msgstr "Built by"
+
+#: dist/dashboard.js:1
+msgid "This will delete all of your customizer settings. It cannot be undone."
+msgstr "将删除所有的定制器设置，且无法撤消。"
+
+#: dist/dashboard.js:1
+msgid "Reset your customizer settings."
+msgstr "重置您的定制器设置。"
+
+#: dist/dashboard.js:1
+msgid "Options imported."
+msgstr "已导入选项。"
+
+#: dist/dashboard.js:1
+msgid "This can overwrite existing settings and cannot be undone."
+msgstr "此操作可能会覆盖现有设置且无法撤消。"
+
+#: dist/dashboard.js:1
+msgid "Import your customizer settings."
+msgstr "导入您的自定义设置。"
+
+#: dist/dashboard.js:1
+msgid "Global Colors"
+msgstr "全局色彩"
+
+#: dist/dashboard.js:1
+msgid "Export your customizer settings."
+msgstr "导出您的自定义设置。"
+
+#: dist/dashboard.js:1
+msgid "Import / Export"
+msgstr "导入 / 导出"
+
+#: dist/dashboard.js:1
+msgid "License key deactivated."
+msgstr "许可密钥已禁用。"
+
+#: dist/dashboard.js:1
+msgid "License key activated."
+msgstr "许可密钥已激活。"
+
+#: dist/dashboard.js:1
+msgid "Get alpha and beta updates directly to your Dashboard."
+msgstr "直接从您的仪表盘中获取 Alpha 和 Beta 更新。"
+
+#: dist/dashboard.js:1
+msgid "Enter your license key to activate updates."
+msgstr "输入您的许可密钥以激活更新。"
+
+#: dist/dashboard.js:1
+msgid "Not receiving premium updates."
+msgstr "不接收 premium 更新。"
+
+#: dist/dashboard.js:1
+msgid "Receiving premium updates."
+msgstr "接收 premium 更新。"
+
+#: dist/dashboard.js:1
+msgid "Options exported"
+msgstr "导出的选项"
+
+#: dist/dashboard.js:1
+msgid "This will delete all settings for this module. It cannot be undone."
+msgstr "将删除该模块的所有设置。此操作无法撤消。"
+
+#: dist/dashboard.js:1
+msgid "Open tools for this module."
+msgstr "打开此模块的工具。"
+
+#: dist/dashboard.js:1
+msgid "Open Elements"
+msgstr "打开元素"
+
+#: dist/dashboard.js:1
+msgid "Open Site Library"
+msgstr "打开站点库"
+
+#: dist/customizer.js:1
+msgid "Related/Upsell Product Titles"
+msgstr "相关/追加销售产品标题"
+
+#: dist/customizer.js:1
+msgid "Catalog Product Titles"
+msgstr "目录产品标题"
+
+#: dist/customizer.js:1
+msgid "Off-Canvas Sub-Menu Items"
+msgstr "画布外子菜单项"
+
+#: dist/customizer.js:1
+msgid "Off-Canvas Menu Items"
+msgstr "画布菜单项"
+
+#: dist/customizer.js:1
+msgid "Secondary Mobile Menu Toggle"
+msgstr "次要移动端菜单切换"
+
+#: dist/customizer.js:1
+msgid "Secondary Sub-Menu Items"
+msgstr "次要子菜单项"
+
+#: dist/customizer.js:1
+msgid "Secondary Menu Items"
+msgstr "次要菜单项"
+
+#: dist/customizer.js:1
+msgid "Off-Canvas Panel"
+msgstr "画布面板"
+
+#: dist/block-elements.js:1
+msgid "The taxonomy to check if in the same term."
+msgstr "检查是否在同一项目中的分类法。"
+
+#: dist/block-elements.js:1
+msgid "Check for posts with the same term as the current post."
+msgstr "检查与当前文章有相同标签的文章。"
+
+#: woocommerce/fields/woocommerce-colors.php:600
+msgid "Other Theme Colors"
+msgstr "其他主题颜色"
+
+#: woocommerce/fields/woocommerce-colors.php:153
+#: woocommerce/fields/woocommerce-colors.php:169
+#: woocommerce/fields/woocommerce-colors.php:185
+#: woocommerce/fields/woocommerce-colors.php:201
+#: woocommerce/fields/woocommerce-colors.php:228
+#: woocommerce/fields/woocommerce-colors.php:244
+#: woocommerce/fields/woocommerce-colors.php:319
+#: woocommerce/fields/woocommerce-colors.php:335
+#: woocommerce/fields/woocommerce-colors.php:410
+#: woocommerce/fields/woocommerce-colors.php:426
+#: woocommerce/fields/woocommerce-colors.php:453
+#: woocommerce/fields/woocommerce-colors.php:469
+#: woocommerce/fields/woocommerce-colors.php:496
+#: woocommerce/fields/woocommerce-colors.php:512
+#: woocommerce/fields/woocommerce-colors.php:528
+#: woocommerce/fields/woocommerce-colors.php:544
+#: woocommerce/fields/woocommerce-colors.php:560
+#: woocommerce/fields/woocommerce-colors.php:576
+msgid "Choose Color"
+msgstr "选择颜色"
+
+#: menu-plus/fields/slideout-nav-colors.php:176
+#: secondary-nav/fields/secondary-navigation.php:165
+msgid "Sub-Menu Text Current"
+msgstr "当前子菜单文字"
+
+#: menu-plus/fields/slideout-nav-colors.php:168
+#: secondary-nav/fields/secondary-navigation.php:157
+msgid "Sub-Menu Text Hover"
+msgstr "子菜单文字悬停"
+
+#: menu-plus/fields/slideout-nav-colors.php:160
+#: secondary-nav/fields/secondary-navigation.php:149
+msgid "Sub-Menu Text"
+msgstr "子菜单文字"
+
+#: menu-plus/fields/slideout-nav-colors.php:143
+#: secondary-nav/fields/secondary-navigation.php:132
+msgid "Sub-Menu Background Current"
+msgstr "当前子菜单背景"
+
+#: menu-plus/fields/slideout-nav-colors.php:135
+#: secondary-nav/fields/secondary-navigation.php:124
+msgid "Sub-Menu Background Hover"
+msgstr "子菜单背景悬停"
+
+#: menu-plus/fields/slideout-nav-colors.php:127
+#: secondary-nav/fields/secondary-navigation.php:116
+msgid "Sub-Menu Background"
+msgstr "子菜单背景"
+
+#: menu-plus/fields/slideout-nav-colors.php:78
+#: menu-plus/fields/slideout-nav-colors.php:111
+#: menu-plus/fields/slideout-nav-colors.php:144
+#: menu-plus/fields/slideout-nav-colors.php:177
+#: secondary-nav/fields/secondary-navigation.php:67
+#: secondary-nav/fields/secondary-navigation.php:100
+#: secondary-nav/fields/secondary-navigation.php:133
+#: secondary-nav/fields/secondary-navigation.php:166
+msgid "Choose Current Color"
+msgstr "选择当前颜色"
+
+#: menu-plus/fields/slideout-nav-colors.php:70
+#: menu-plus/fields/slideout-nav-colors.php:103
+#: menu-plus/fields/slideout-nav-colors.php:136
+#: menu-plus/fields/slideout-nav-colors.php:169
+#: secondary-nav/fields/secondary-navigation.php:59
+#: secondary-nav/fields/secondary-navigation.php:92
+#: secondary-nav/fields/secondary-navigation.php:125
+#: secondary-nav/fields/secondary-navigation.php:158
+#: woocommerce/fields/woocommerce-colors.php:78
+#: woocommerce/fields/woocommerce-colors.php:102
+#: woocommerce/fields/woocommerce-colors.php:137
+#: woocommerce/fields/woocommerce-colors.php:268
+#: woocommerce/fields/woocommerce-colors.php:292
+#: woocommerce/fields/woocommerce-colors.php:359
+#: woocommerce/fields/woocommerce-colors.php:383
+msgid "Choose Hover Color"
+msgstr "选择悬停颜色"
+
+#: menu-plus/fields/slideout-nav-colors.php:62
+#: menu-plus/fields/slideout-nav-colors.php:95
+#: menu-plus/fields/slideout-nav-colors.php:128
+#: menu-plus/fields/slideout-nav-colors.php:161
+#: secondary-nav/fields/secondary-navigation.php:51
+#: secondary-nav/fields/secondary-navigation.php:84
+#: secondary-nav/fields/secondary-navigation.php:117
+#: secondary-nav/fields/secondary-navigation.php:150
+#: woocommerce/fields/woocommerce-colors.php:70
+#: woocommerce/fields/woocommerce-colors.php:94
+#: woocommerce/fields/woocommerce-colors.php:129
+#: woocommerce/fields/woocommerce-colors.php:260
+#: woocommerce/fields/woocommerce-colors.php:284
+#: woocommerce/fields/woocommerce-colors.php:351
+#: woocommerce/fields/woocommerce-colors.php:375
+msgid "Choose Initial Color"
+msgstr "选择初始颜色"
+
+#: inc/class-rest.php:486 dist/dashboard.js:1
+msgid "Settings reset."
+msgstr "设置已重置。"
+
+#: inc/class-rest.php:418
+msgid "Settings imported."
+msgstr "已导入设置。"
+
+#: inc/class-rest.php:367
+msgid "No settings to import."
+msgstr "没有要导入的设置。"
+
+#: inc/class-rest.php:269
+msgid "Settings saved."
+msgstr "已保存设置。"
+
+#. translators: GP Premium
+#: inc/class-rest.php:243
+msgid "This appears to be an invalid license key for %s."
+msgstr "无效的许可证密钥 %s."
+
+#: inc/class-rest.php:209 inc/legacy/activation.php:511
+msgid "403 Forbidden. Your server is not able to communicate with generatepress.com in order to activate your license key."
+msgstr "403 Forbidden。 您的服务器无法与 generatepress.com 进行通信，许可密钥无法激活。"
+
+#: inc/class-dashboard.php:217
+msgid "Core"
+msgstr "核心"
+
+#: inc/class-dashboard.php:176
+msgid "Choose from an extensive library of professionally designed starter sites."
+msgstr "从大量专业设计的入门站点库中进行选择。"
+
+#: inc/class-dashboard.php:165
+msgid "Add colors, typography, and layout options to your WooCommerce store."
+msgstr "为您的 WooCommerce 商店添加颜色、排版和布局选项。"
+
+#: inc/class-dashboard.php:159
+msgid "This module has been deprecated. Switch to our dynamic typography system in Customize > General instead."
+msgstr "该模块已被弃用。请在 \"定制\">\"常规 \"中切换到我们的动态排版系统。"
+
+#: inc/class-dashboard.php:151
+msgid "Set the padding and overall spacing of your theme elements."
+msgstr "设置主题元素的填充和整体间距。"
+
+#: inc/class-dashboard.php:145
+msgid "This module has been deprecated. Please consider using our GenerateBlocks plugin instead."
+msgstr "该模块已被弃用。请考虑使用我们的 GenerateBlocks 插件。"
+
+#: inc/class-dashboard.php:137
+msgid "Add a fully-featured secondary navigation to your site."
+msgstr "向您的站点添加功能齐全的辅助导航。"
+
+#: inc/class-dashboard.php:136
+msgid "Secondary Nav"
+msgstr "次要导航"
+
+#: inc/class-dashboard.php:121
+msgid "Set up a mobile header, sticky navigation or off-canvas panel."
+msgstr "设置移动端标题、置顶导航或画布外面板。"
+
+#: inc/class-dashboard.php:113 inc/class-dashboard.php:129
+msgid "This module has been deprecated. Please use Elements instead."
+msgstr "该模块已被弃用。请改用元素。"
+
+#: inc/class-dashboard.php:107
+msgid "Use our block editor theme builder, build advanced HTML hooks, and gain more Layout control."
+msgstr "使用我们的区块编辑器主题构建器建立高级的 HTML 钩子并掌握更多的布局控制项。"
+
+#: inc/class-dashboard.php:101
+msgid "Disable default theme elements on specific pages or inside a Layout Element."
+msgstr "禁用特定页面上或特定布局元素内的默认主题元素。"
+
+#: inc/class-dashboard.php:93
+msgid "Set a custom copyright message in your footer."
+msgstr "在页脚中设置自定义版权信息。"
+
+#: inc/class-dashboard.php:80
+msgid "Set blog options like infinite scroll, masonry layouts and more."
+msgstr "设置博客选项，如无限滚动、砖石布局等。"
+
+#: inc/class-dashboard.php:72
+msgid "Set background images for various HTML elements."
+msgstr "为各种 HTML 元素设置背景图。"
+
+#: elements/class-post-type.php:93
+msgid "Element reverted to draft."
+msgstr "元素已恢复为草稿。"
+
+#: elements/class-post-type.php:92
+msgid "Element scheduled."
+msgstr "元素已计划。"
+
+#: elements/class-post-type.php:91
+msgid "Element updated."
+msgstr "元素已更新。"
+
+#: elements/class-post-type.php:90
+msgid "Element published."
+msgstr "元素已发布。"
+
+#: dist/site-library.js:9
+msgid "Note: We do our best to ensure all imported images are licensed for open use. However, image licenses can change, so we strongly advise that you replace all imported images with your own."
+msgstr "注意：我们尽最大努力确保所有导入的图片都具有开放使用的许可。但是图片的许可随时可能变更，所以我们强烈建议您使用自己的图片替换所有导入的图片。"
+
+#: dist/site-library.js:9
+msgid "Check out your new site and start making it yours!"
+msgstr "查看您的新站点并开始使用!"
+
+#: dist/site-library.js:9
+msgid "Learn more here"
+msgstr "在此处了解更多"
+
+#: dist/site-library.js:9
+msgid "To disable it, find WP_DEBUG in your wp-config.php file and set it to false like the below."
+msgstr "如需禁用，请在 wp-config.php 文件中找到 WP_DEBUG 并将其设置为 false，如下所示："
+
+#: dist/site-library.js:9
+msgid "WordPress debug mode is currently enabled. With this, any errors from third-party plugins might affect the import process."
+msgstr "WordPress 调试模式目前已启用。因此，来自第三方插件的任何错误都可能影响导入过程。"
+
+#: dist/site-library.js:9
+msgid "Debug Mode Enabled"
+msgstr "启用调试模式"
+
+#: dist/block-elements.js:1
+msgid "Remove container condition"
+msgstr "移除容器状态"
+
+#: dist/block-elements.js:3
+msgid "Display Order"
+msgstr "显示顺序"
+
+#: dist/block-elements.js:3
+msgid "Parent Element"
+msgstr "父元素"
+
+#: dist/block-elements.js:3
+msgid "First post"
+msgstr "首篇文章"
+
+#: dist/block-elements.js:1
+msgid "No post meta"
+msgstr "无 post meta"
+
+#: dist/block-elements.js:1
+msgid "No featured image"
+msgstr "无特色图片"
+
+#: elements/class-post-type.php:379
+msgid "Inherit from parent"
+msgstr "从父级继承"
+
+#: elements/class-post-type.php:253
+msgid "All block types"
+msgstr "所有区块类型"
+
+#: elements/class-conditions.php:54
+msgid "No Search Results"
+msgstr "无搜索结果"
+
+#: dist/site-library.js:9
+msgid "Preview mobile"
+msgstr "预览移动端"
+
+#: dist/site-library.js:9
+msgid "Preview tablet"
+msgstr "预览平板端"
+
+#: dist/site-library.js:9
+msgid "Preview desktop"
+msgstr "预览桌面端"
+
+#: dist/site-library.js:9
+msgid "Elementor Tools"
+msgstr "元素工具"
+
+#: dist/site-library.js:9
+msgid "Take note of the old and new URLs below, then head over to the Elementor Tools area to replace them."
+msgstr "记下下面的旧 URL 和新 URL，然后转到元素工具区域以替换它们。"
+
+#: dist/site-library.js:9
+msgid "Begin Import"
+msgstr "开始导入"
+
+#: dist/site-library.js:9
+msgid "I understand"
+msgstr "我明白"
+
+#: dist/site-library.js:9
+msgid "Confirm Import"
+msgstr "确认导入"
+
+#: dist/site-library.js:9
+msgid "Import Demo Content"
+msgstr "导入演示内容"
+
+#: dist/site-library.js:9
+msgid "This will install and activate needed plugins, import demo content, and import site options."
+msgstr "此操作将会安装并启用所需插件，导入演示内容和站点选项。"
+
+#: dist/site-library.js:9
+msgid "Import Theme Options"
+msgstr "导入主题选项"
+
+#: dist/site-library.js:9
+msgid "This will import the options from the Customizer."
+msgstr "将会从定制程序中导入选项。"
+
+#: dist/site-library.js:9
+msgid "These plugins need to be installed manually."
+msgstr "这些插件需要手动安装。"
+
+#: dist/site-library.js:9
+msgid "These plugins are already installed."
+msgstr "这些插件已经安装。"
+
+#: dist/site-library.js:9
+msgid "These plugins can be installed automatically."
+msgstr "这些插件可以自动安装。"
+
+#: dist/site-library.js:9
+msgid "Gathering information"
+msgstr "收集信息"
+
+#: dist/site-library.js:7
+msgid "Refresh sites"
+msgstr "刷新站点"
+
+#. translators: Version number
+#: dist/site-library.js:5
+msgid "Requires GP Premium %s."
+msgstr "需要 GP Premium %s。"
+
+#: dist/site-library.js:3
+msgid "Page Builder"
+msgstr "页面构建器"
+
+#: dist/site-library.js:3
+msgid "Category"
+msgstr "分类"
+
+#: dist/site-library.js:3
+msgid "No thanks"
+msgstr "不，谢谢"
+
+#: dist/site-library.js:3
+msgid "Remove imported site"
+msgstr "移除导入的站点"
+
+#: dist/site-library.js:3 dist/site-library.js:9
+msgid "This process makes changes to your website. If it contains important data, we suggest backing it up before proceeding."
+msgstr "此过程会更改您的站点。如果其中包含重要数据，我们建议在继续之前对其进行备份。"
+
+#: dist/site-library.js:3
+msgid "Try again"
+msgstr "再试一次"
+
+#: dist/site-library.js:3
+msgid "No sites were found."
+msgstr "未找到任何站点。"
+
+#: dist/site-library.js:3
+msgid "Restoring content"
+msgstr "还原内容"
+
+#. translators: Installing "Plugin Name"
+#: dist/site-library.js:3
+msgid "Installing %s"
+msgstr "安装%s"
+
+#: dist/site-library.js:1 dist/site-library.js:3 dist/site-library.js:9
+msgid "Import Complete"
+msgstr "导入完成"
+
+#: dist/site-library.js:1
+msgid "Importing theme options"
+msgstr "导入主题选项"
+
+#: dist/editor.js:1
+msgid "Active Elements"
+msgstr "激活元素"
+
+#: dist/block-elements.js:3
+msgid "Keep default archive navigation container"
+msgstr "保留默认归档导航容器"
+
+#: dist/block-elements.js:3
+msgid "Disable default pagination"
+msgstr "禁用默认分页"
+
+#: dist/block-elements.js:3
+msgid "Add default archive navigation container"
+msgstr "添加默认归档导航容器"
+
+#: dist/block-elements.js:3
+msgid "Disable default post navigation"
+msgstr "禁用默认文章导航"
+
+#: dist/block-elements.js:3
+msgid "Use the above template tag to add the current year to your footer."
+msgstr "使用上面的模板标签将当前年份添加到页脚。"
+
+#: dist/block-elements.js:3
+msgid "Current year template tag"
+msgstr "当前年度模板标签"
+
+#: dist/block-elements.js:3
+msgid "Disable primary post meta"
+msgstr "禁用主 post meta"
+
+#: dist/block-elements.js:3
+msgid "Disable featured image"
+msgstr "禁用特色图片"
+
+#: dist/block-elements.js:3
+msgid "Disable title"
+msgstr "禁用标题"
+
+#: dist/block-elements.js:3
+msgid "Keep default post container"
+msgstr "保留默认文章容器"
+
+#: dist/block-elements.js:3
+msgid "Post meta name"
+msgstr "Post meta 名称"
+
+#: dist/block-elements.js:3
+msgid "Term name"
+msgstr "标签名称"
+
+#: dist/block-elements.js:3
+msgid "Posts with custom field"
+msgstr "带自定义字段的文章"
+
+#: dist/block-elements.js:3
+msgid "Posts with term"
+msgstr "带标签的文章"
+
+#: dist/block-elements.js:3
+msgid "All posts"
+msgstr "所有文章"
+
+#: dist/block-elements.js:3
+msgid "Apply to"
+msgstr "适用于"
+
+#: dist/block-elements.js:3
+msgid "Tag name"
+msgstr "标签名称"
+
+#: dist/block-elements.js:3
+msgid "Replace default secondary post meta"
+msgstr "替换默认次 post meta"
+
+#: dist/block-elements.js:3
+msgid "Replace default primary post meta"
+msgstr "替换默认主 post meta"
+
+#: dist/block-elements.js:3
+msgid "Custom hook name"
+msgstr "自定义钩子名称"
+
+#: dist/block-elements.js:3
+msgid "Choose your hook"
+msgstr "选择您的钩子"
+
+#: dist/block-elements.js:3
+msgid "Hook name"
+msgstr "钩子名称"
+
+#: dist/block-elements.js:3
+msgid "Quick hook select"
+msgstr "快速钩选"
+
+#: dist/block-elements.js:3
+msgid "Before post title"
+msgstr "文章标题前"
+
+#: dist/block-elements.js:3
+msgid "After post title"
+msgstr "文章标题后"
+
+#: dist/block-elements.js:3
+msgid "This Element will replace your site footer area that holds your copyright message. It will not replace footer widgets if they exist."
+msgstr "此元素将取代您站点的页脚区，其中包含您的版权信息。如果页脚小工具存在则不会被取代。"
+
+#: dist/block-elements.js:3
+msgid "Templates"
+msgstr "模板"
+
+#: dist/block-elements.js:3
+msgid "Element type"
+msgstr "元素类型"
+
+#: dist/block-elements.js:3
+msgid "Editor width"
+msgstr "编辑器宽度"
+
+#: dist/block-elements.js:3
+msgid "Install GenerateBlocks"
+msgstr "安装GenerateBlocks"
+
+#: dist/block-elements.js:3
+msgid "Activate GenerateBlocks"
+msgstr "启用GenerateBlocks"
+
+#: dist/block-elements.js:3
+msgid "To take full advantage of Block Elements, we suggest using our GenerateBlocks plugin."
+msgstr "为了发挥区块元素的最佳效果，建议您使用我们的 GenerateBlocks 插件。"
+
+#: dist/block-elements.js:3
+msgid "Block Element"
+msgstr "区块元素"
+
+#: dist/block-elements.js:3
+msgid "After content container"
+msgstr "内容容器之后"
+
+#: dist/block-elements.js:3
+msgid "After content"
+msgstr "内容后"
+
+#: dist/block-elements.js:3
+msgid "Before content"
+msgstr "内容之前"
+
+#: dist/block-elements.js:3
+msgid "Before content container"
+msgstr "内容容器之前"
+
+#: dist/block-elements.js:3
+msgid "After header"
+msgstr "标题后"
+
+#: dist/block-elements.js:3
+msgctxt "label"
+msgid "Single post hero with excerpt"
+msgstr "带摘要的单篇文章英雄"
+
+#: dist/block-elements.js:3
+msgctxt "label"
+msgid "Basic single post page hero"
+msgstr "基本单页英雄"
+
+#: dist/block-elements.js:3
+msgctxt "label"
+msgid "Rounded buttons with icon"
+msgstr "带图标的圆形按钮"
+
+#: dist/block-elements.js:3
+msgctxt "label"
+msgid "Default next and previous buttons"
+msgstr "默认下一个和上一个按钮"
+
+#: dist/block-elements.js:3
+msgctxt "label"
+msgid "Landscape layout"
+msgstr "景观布局"
+
+#: dist/block-elements.js:3
+msgctxt "label"
+msgid "Layout with offset content"
+msgstr "带偏移内容的布局"
+
+#: dist/block-elements.js:3
+msgctxt "label"
+msgid "Basic layout with term buttons"
+msgstr "带项目按钮的基本布局"
+
+#: dist/block-elements.js:3
+msgctxt "label"
+msgid "Full footer 2"
+msgstr "完整页脚 2"
+
+#: dist/block-elements.js:3
+msgctxt "label"
+msgid "Full footer 1"
+msgstr "完整页脚 1"
+
+#: dist/block-elements.js:3
+msgctxt "label"
+msgid "Term buttons"
+msgstr "项目按钮"
+
+#: dist/block-elements.js:3
+msgctxt "label"
+msgid "Stacked with avatar"
+msgstr "堆放头像"
+
+#: dist/block-elements.js:3
+msgctxt "label"
+msgid "Inline with avatar"
+msgstr "与头像的内联"
+
+#: dist/block-elements.js:3
+msgctxt "label"
+msgid "Two columns with background overlays"
+msgstr "两列背景叠加"
+
+#: dist/block-elements.js:3
+msgctxt "label"
+msgid "Two columns with arrows"
+msgstr "两列带箭头"
+
+#: dist/block-elements.js:3
+msgctxt "label"
+msgid "Two columns with featured image"
+msgstr "两列带特色图片"
+
+#: dist/block-elements.js:2 dist/block-elements.js:3
+msgid "%s Units"
+msgstr "%s 个单位"
+
+#: dist/block-elements.js:1
+msgctxt "A size unit for CSS markup"
+msgid "Degree"
+msgstr "度"
+
+#: dist/block-elements.js:1
+msgctxt "A size unit for CSS markup"
+msgid "Percentage"
+msgstr "百分比"
+
+#: dist/block-elements.js:1
+msgctxt "A size unit for CSS markup"
+msgid "Em"
+msgstr "Em"
+
+#: dist/block-elements.js:1
+msgctxt "A size unit for CSS markup"
+msgid "Pixel"
+msgstr "像素"
+
+#: dist/block-elements.js:1
+msgid "Select Units"
+msgstr "选择单位"
+
+#: dist/block-elements.js:1
+msgid "Displays a dynamic image from your chosen source."
+msgstr "显示所选源的动态图片。"
+
+#: dist/block-elements.js:1
+msgid "Dynamic Image"
+msgstr "动态图片"
+
+#: dist/block-elements.js:1
+msgid "Dynamic image placeholder"
+msgstr "动态图片占位符"
+
+#: dist/block-elements.js:1
+msgid "Choose your dynamic image type."
+msgstr "选择动态图片类型。"
+
+#: dist/block-elements.js:1
+msgid "Dynamic image"
+msgstr "动态图片"
+
+#: dist/block-elements.js:1
+msgid "Make image rounded"
+msgstr "使图片四舍五入"
+
+#: dist/block-elements.js:1
+msgid "Custom field name"
+msgstr "自定义字段名称"
+
+#: dist/block-elements.js:1
+msgid "Custom field"
+msgstr "自定义字段"
+
+#: dist/block-elements.js:1
+msgid "Link to"
+msgstr "链接到"
+
+#: dist/block-elements.js:1
+msgid "Image height"
+msgstr "图片高度"
+
+#: dist/block-elements.js:1
+msgid "Image width"
+msgstr "图片宽度"
+
+#: dist/block-elements.js:1
+msgid "Image size"
+msgstr "图片尺寸"
+
+#: dist/block-elements.js:1
+msgid "Author avatar"
+msgstr "作者头像"
+
+#: dist/block-elements.js:1
+msgid "Displays dynamic content based on your chosen source."
+msgstr "根据您选择的源显示动态内容。"
+
+#: dist/block-elements.js:1
+msgid "Dynamic Content"
+msgstr "动态内容"
+
+#: dist/block-elements.js:1
+msgid "This is a placeholder for your description."
+msgstr "这是您描述的占位符。"
+
+#: dist/block-elements.js:1
+msgid "Choose your dynamic content type."
+msgstr "选择动态内容类型。"
+
+#: dist/block-elements.js:1
+msgid "Dynamic content"
+msgstr "动态内容"
+
+#: dist/block-elements.js:1
+msgid "Custom more link"
+msgstr "自定义更多链接"
+
+#: dist/block-elements.js:1
+msgid "Use theme more link"
+msgstr "使用主题更多链接"
+
+#: dist/block-elements.js:1
+msgid "Excerpt length"
+msgstr "摘要长度"
+
+#: dist/block-elements.js:1
+msgid "Author description"
+msgstr "作者描述"
+
+#: dist/block-elements.js:1
+msgid "Term description"
+msgstr "标签描述"
+
+#: dist/block-elements.js:1
+msgid "Post excerpt"
+msgstr "摘要后"
+
+#: dist/block-elements.js:1
+msgid "Post content"
+msgstr "文章内容"
+
+#: dist/block-elements.js:1
+msgid "Dynamic link type"
+msgstr "动态链接类型"
+
+#: dist/block-elements.js:1
+msgid "Updated date before text"
+msgstr "文本前更新日期"
+
+#: dist/block-elements.js:1
+msgid "Use % in place of the number of comments"
+msgstr "使用 % 代替评论数"
+
+#: dist/block-elements.js:1
+msgid "Plural comments text"
+msgstr "复数评论文字"
+
+#: dist/block-elements.js:1
+msgid "Singular comments text"
+msgstr "单条评论文字"
+
+#: dist/block-elements.js:1
+msgid "No comments text"
+msgstr "无评论文字"
+
+#: dist/block-elements.js:1
+msgid "Term separator"
+msgstr "标签分隔符"
+
+#: dist/block-elements.js:1
+msgid "Replace with updated date"
+msgstr "替换为更新日期"
+
+#: dist/block-elements.js:1
+msgid "Updated date"
+msgstr "更新日期"
+
+#: dist/block-elements.js:1
+msgid "Date type"
+msgstr "日期类型"
+
+#: dist/block-elements.js:1
+msgid "Terms"
+msgstr "标签"
+
+#: dist/block-elements.js:1
+msgid "Hello World"
+msgstr "世界，您好"
+
+#: dist/block-elements.js:1
+msgid "Comments number"
+msgstr "评论数"
+
+#: dist/block-elements.js:1
+msgid "List of terms"
+msgstr "标签列表"
+
+#: dist/block-elements.js:1
+msgid "Post author name"
+msgstr "文章作者名"
+
+#: dist/block-elements.js:1
+msgid "Post date"
+msgstr "发布日期"
+
+#: dist/block-elements.js:1
+msgid "Title"
+msgstr "标题"
+
+#: dist/block-elements.js:1
+msgid "Dynamic text type"
+msgstr "动态文字类型"
+
+#: dist/block-elements.js:1
+msgid "Published date before text"
+msgstr "文本前的发布日期"
+
+#: dist/block-elements.js:1
+msgid "Term archives"
+msgstr "标签归档"
+
+#: dist/block-elements.js:1
+msgid "Author meta"
+msgstr "作者 meta"
+
+#: dist/block-elements.js:1
+msgid "Previous page of posts"
+msgstr "上一页帖子"
+
+#: dist/block-elements.js:1
+msgid "Next page of posts"
+msgstr "下一页文章"
+
+#: dist/block-elements.js:1
+msgid "Comments area"
+msgstr "评论区"
+
+#: dist/block-elements.js:1
+msgid "Author archives"
+msgstr "作者归档"
+
+#: dist/block-elements.js:1
+msgid "Single post"
+msgstr "单篇文章"
+
+#: dist/block-elements.js:1 dist/block-elements.js:3
+msgid "Taxonomy"
+msgstr "分类法"
+
+#: dist/block-elements.js:1
+msgid "In same term"
+msgstr "同一项目"
+
+#: dist/block-elements.js:1
+msgid "No previous post"
+msgstr "没有上一篇文章"
+
+#: dist/block-elements.js:1
+msgid "No next post"
+msgstr "没有下一篇文章"
+
+#: dist/block-elements.js:1
+msgid "Space between"
+msgstr "间隔"
+
+#: dist/block-elements.js:1
+msgid "Inline alignment"
+msgstr "内联对齐"
+
+#: dist/block-elements.js:1
+msgid "Inline post meta items"
+msgstr "内联 post meta 项目"
+
+#: dist/block-elements.js:1
+msgid "Previous post"
+msgstr "上篇文章"
+
+#: dist/block-elements.js:1
+msgid "Next post"
+msgstr "下篇文章"
+
+#: dist/block-elements.js:1
+msgid "Current post"
+msgstr "当前文章"
+
+#: dist/block-elements.js:1
+msgid "Source"
+msgstr "源"
+
+#: dist/block-elements.js:1
+msgid "Post"
+msgstr "发布"
+
+#: dist/block-elements.js:1 dist/block-elements.js:3
+msgid "Choose…"
+msgstr "选择。。。"
+
+#: dist/block-elements.js:1
+msgid "Dynamic Link"
+msgstr "动态链接"
+
+#: dist/block-elements.js:1
+msgid "Use fallback image"
+msgstr "使用背景图片"
+
+#: dist/block-elements.js:1
+msgid "Meta field name"
+msgstr "Meta 字段名称"
+
+#: dist/block-elements.js:1
+msgid "Add a background image to this Container to make it dynamic."
+msgstr "向此容器添加背景图片以使其动态化。"
+
+#: dist/block-elements.js:1
+msgid "User meta"
+msgstr "User meta"
+
+#: dist/block-elements.js:1
+msgid "Term meta"
+msgstr "Term meta"
+
+#: dist/block-elements.js:1
+msgid "Post meta"
+msgstr "Post meta"
+
+#: dist/block-elements.js:1
+msgid "Featured image"
+msgstr "特色图片"
+
+#: dist/block-elements.js:1
+msgid "Dynamic Background Image"
+msgstr "动态背景图"
+
+#: dist/block-elements.js:1
+msgid "Dynamic options"
+msgstr "动态选项"
+
+#: site-library/class-site-library-rest.php:467
+msgid "Options imported"
+msgstr "导入选项"
+
+#. translators: URL to the Elements dashboard.
+#: library/customizer-helpers.php:469
+msgid "This page is using a <a href=\"%s\">Post Meta Template Element</a>. Some of the options below may not apply."
+msgstr "此页面正在使用 <a href=\"%s\">Post Meta 模板元素</a>，以下某些选项可能不适用。"
+
+#. translators: URL to the Elements dashboard.
+#: library/customizer-helpers.php:442
+msgid "This page is using a <a href=\"%s\">Page Hero Element</a>. Some of the options below may not apply."
+msgstr "此页面正在使用 <a href=\"%s\">页面英雄元素</a>，以下某些选项可能不适用。"
+
+#. translators: URL to the Elements dashboard.
+#: library/customizer-helpers.php:415
+msgid "This page is using a <a href=\"%s\">Content Template Element</a>. Some of the options below may not apply."
+msgstr "此页面正在使用 <a href=\"%s\">内容模板元素</a>，以下某些选项可能不适用。"
+
+#. translators: URL to the Elements dashboard.
+#: library/customizer-helpers.php:379
+msgid "This page is using a <a href=\"%s\">Sidebar Element</a>. Some of the options below may not apply."
+msgstr "此页面正在使用 <a href=\"%s\">侧边栏元素</a>，以下某些选项可能不适用。"
+
+#. translators: URL to the Elements dashboard.
+#: library/customizer-helpers.php:341
+msgid "This page is using a <a href=\"%s\">Site Header Element</a>. Some of the options below may not apply."
+msgstr "此页面正在使用 <a href=\"%s\">站点标题元素</a>，以下某些选项可能不适用。"
+
+#. translators: URL to the Elements dashboard.
+#: library/customizer-helpers.php:303
+msgid "This page is using a <a href=\"%s\">Site Footer Element</a>. Some of the options below may not apply."
+msgstr "此页面正在使用 <a href=\"%s\">站点页脚元素</a>，以下某些选项可能不适用。"
+
+#. translators: Active Element count.
+#: elements/elements.php:249
+msgid "Elements (%s)"
+msgstr "元素 （%s）"
+
+#: elements/class-elements-helper.php:206 dist/block-elements.js:3
+msgid "Archive Navigation"
+msgstr "归档导航"
+
+#: elements/class-elements-helper.php:202 dist/block-elements.js:3
+msgid "Post Navigation"
+msgstr "文章导航"
+
+#: elements/class-elements-helper.php:198 dist/block-elements.js:3
+msgid "Post Meta Template"
+msgstr "Post Meta 模板"
+
+#: elements/class-elements-helper.php:194 dist/block-elements.js:3
+msgid "Content Template"
+msgstr "内容模板"
+
+#: elements/class-block-elements.php:920 dist/block-elements.js:1
+msgid "% Comments"
+msgstr "% 条评论"
+
+#: elements/class-block-elements.php:919 dist/block-elements.js:1
+msgid "1 Comment"
+msgstr "1 条评论"
+
+#: elements/class-block-elements.php:910 dist/block-elements.js:1
+msgid "No Comments"
+msgstr "无评论"
+
+#: elements/class-block-elements.php:547
+msgid "Photo of author"
+msgstr "作者照片"
+
+#: elements/class-block-elements.php:384 dist/block-elements.js:1
+msgid "This is a placeholder for your content."
+msgstr "这是内容的占位符。"
+
+#: elements/class-block-elements.php:178
+msgid "GeneratePress"
+msgstr "GeneratePress"
+
+#: inc/deprecated-admin.php:305
+msgid "Reload Page"
+msgstr "重新加载页面"
+
+#: inc/class-dashboard.php:128
+msgid "Page Header"
+msgstr "页眉"
+
+#: inc/deprecated.php:560
+msgid "Cart"
+msgstr "购物车"
+
+#: inc/deprecated.php:504
+msgid "Please activate the \"Visual\" tab in your main editor before transferring content."
+msgstr "请在传输内容之前激活主编辑器中的“视觉”选项卡。"
+
+#: inc/deprecated.php:503
+msgid "Error: Content already detected in default editor."
+msgstr "错误：已在默认编辑器中检测到内容。"
+
+#: inc/deprecated.php:136
+msgid "Large"
+msgstr "大"
+
+#: inc/deprecated.php:135
+msgid "Medium"
+msgstr "中等"
+
+#: inc/deprecated.php:134
+msgid "Small"
+msgstr "小"
+
+#: inc/deprecated.php:133
+msgid "Global setting"
+msgstr "全局设置"
+
+#: inc/deprecated.php:131
+msgid "Masonry Post Width"
+msgstr "Masonry 宽度"
+
+#: inc/legacy/import-export.php:58
+msgid "Import/Export"
+msgstr "导入/导出"
+
+#: general/class-external-file-css.php:442 inc/deprecated-admin.php:322
+msgid "Security check failed."
+msgstr "安全检查失败。"
+
+#: general/class-external-file-css.php:116
+msgid "Regenerate CSS File"
+msgstr "重新生成 CSS 文件"
+
+#: general/class-external-file-css.php:102
+msgid "External File"
+msgstr "外部文件"
+
+#: general/class-external-file-css.php:101
+msgid "Inline Embedding"
+msgstr "内联嵌入"
+
+#: general/class-external-file-css.php:98
+msgid "Generating your dynamic CSS in an external file offers significant performance advantages."
+msgstr "在外部文件中生成动态 CSS 具有显著的性能优势。"
+
+#: general/class-external-file-css.php:97
+msgid "Dynamic CSS Print Method"
+msgstr "动态CSS打印方法"
+
+#: elements/class-post-type.php:492
+msgid "Create"
+msgstr "创建"
+
+#: elements/class-post-type.php:381
+msgid "Not set"
+msgstr "未设置"
+
+#: elements/class-post-type.php:215
+msgid "Blocks"
+msgstr "区块"
+
+#: elements/class-post-type.php:160
+msgid "Edit Header"
+msgstr "编辑页眉"
+
+#: elements/class-post-type.php:159
+msgid "Add New Header"
+msgstr "Add New Header"
+
+#: elements/class-post-type.php:155
+msgid "Edit Hook"
+msgstr "编辑钩子"
+
+#: elements/class-post-type.php:154
+msgid "Add New Hook"
+msgstr "添加新钩子"
+
+#: elements/class-post-type.php:150
+msgid "Edit Layout"
+msgstr "编辑布局"
+
+#: elements/class-post-type.php:149
+msgid "Add New Layout"
+msgstr "添加新布局"
+
+#: dist/block-elements.js:3
+msgid "This will remove the current sidebar widgets for the selected sidebar. Your layout must have a sidebar set for this Element to show."
+msgstr "这将移除所选侧边栏的当前侧边栏小工具。您的布局必须要有一个侧边栏来显示此元素。"
+
+#: elements/class-elements-helper.php:218 dist/block-elements.js:3
+msgid "Site Footer"
+msgstr "站点页脚"
+
+#: elements/class-elements-helper.php:170 elements/class-metabox.php:247
+#: elements/class-post-type.php:325 elements/class-post-type.php:486
+msgid "Block"
+msgstr "区块"
+
+#. translators: Aria-label describing the read more button
+#: blog/functions/generate-blog.php:442 blog/functions/generate-blog.php:474
+#: blog/functions/generate-blog.php:620 elements/class-block-elements.php:353
+msgctxt "more on post title"
+msgid "More on %s"
+msgstr "继续阅读%s"
+
+#: blog/functions/customizer.php:590 blog/functions/customizer.php:765
+#: blog/functions/customizer.php:940
+msgid "Media Attachment Size"
+msgstr "媒体附件大小"
+
+#: blog/functions/customizer.php:648 blog/functions/customizer.php:823
+#: blog/functions/customizer.php:998
+msgid "here"
+msgstr "此处"
+
+#: blog/functions/customizer.php:647 blog/functions/customizer.php:822
+#: blog/functions/customizer.php:997
+msgid "We will attempt to serve exact image sizes based on your width/height settings. If that is not possible, we will resize your images using CSS. Learn more about featured image sizing %s."
+msgstr "我们将尝试根据您的宽度/高度设置，提供精确的图片尺寸。如果失败，我们将使用 CSS 调整您的图片尺寸。了解有关特色图片尺寸的更多信息%s."
+
+#: woocommerce/functions/customizer/customizer.php:339
+msgid "Column Gap"
+msgstr "列间距"
+
+#: typography/functions/woocommerce-fonts.php:80
+msgid "Shop Product Titles"
+msgstr "商城产品标题"
+
+#: typography/functions/functions.php:1454
+msgid "Archive Content Title (H2)"
+msgstr "归档内容标题 (H2)"
+
+#: typography/functions/functions.php:1151
+msgid "Single Content Title (H1)"
+msgstr "单篇文章内容标题 (H1)"
+
+#: spacing/functions/customizer/content-spacing.php:228
+msgid "The content separator controls the space between the featured image, title, content and entry meta."
+msgstr "内容分隔符控制特色图片、标题、内容和条目之间的间距。"
+
+#: inc/deprecated-admin.php:771 dist/site-library.js:3
+msgid "Why?"
+msgstr "为什么？"
+
+#: inc/deprecated-admin.php:770
+msgid "No sites found."
+msgstr "未找到站点。"
+
+#: inc/deprecated-admin.php:282
+msgid "Remove Imported Site"
+msgstr "移除导入的站点"
+
+#: inc/deprecated-admin.php:278 dist/site-library.js:3
+msgid "This process restores your previous options, widgets and active plugins. It will also remove your imported content and CSS."
+msgstr "此过程将还原您之前的选项、小工具和激活的插件。同时也将移除您的导入内容和CSS。"
+
+#: inc/deprecated-admin.php:277 dist/site-library.js:3
+msgid "It is highly recommended that you remove the last site you imported before importing a new one."
+msgstr "强烈建议您在导入新站点之前移除您上一次导入的站点。"
+
+#: inc/deprecated-admin.php:274 dist/site-library.js:3
+msgid "Existing Site Import Detected"
+msgstr "检测到现有的站点导入数据"
+
+#: inc/deprecated-admin.php:150
+msgid "This process makes changes to your database. If you have existing data, be sure to create a backup as a precaution."
+msgstr "此过程会更改您的数据库。如果您有现有数据，请务必创建备份作为预防措施。"
+
+#: inc/deprecated-admin.php:148
+msgid "Cleaning up"
+msgstr "清理"
+
+#: inc/deprecated-admin.php:147
+msgid "Restoring CSS"
+msgstr "还原 CSS"
+
+#: inc/deprecated-admin.php:146
+msgid "Restoring widgets"
+msgstr "还原小工具"
+
+#: inc/deprecated-admin.php:145
+msgid "Deactivating imported plugins"
+msgstr "禁用导入插件"
+
+#: inc/deprecated-admin.php:144
+msgid "Removing imported content"
+msgstr "移除导入的内容"
+
+#: inc/deprecated-admin.php:143
+msgid "Restoring site options"
+msgstr "还原站点选项"
+
+#: inc/deprecated-admin.php:142 dist/site-library.js:3
+msgid "Restoring theme options"
+msgstr "还原主题选项"
+
+#: site-library/class-site-library-rest.php:866
+msgid "Content restored."
+msgstr "内容已还原。"
+
+#: site-library/class-site-library-rest.php:801
+msgid "Theme options restored."
+msgstr "主题选项已还原。"
+
+#: menu-plus/functions/generate-menu-plus.php:611
+msgid "Desktop Toggle Label"
+msgstr "桌面切换标签"
+
+#: menu-plus/functions/generate-menu-plus.php:197
+msgid "Mobile Menu Breakpoint"
+msgstr "移动菜单断点"
+
+#: library/customizer/controls/class-typography-control.php:162
+#: library/customizer/controls/class-typography-control.php:179
+msgid "inherit"
+msgstr "继承"
+
+#: colors/functions/functions.php:831
+msgid "Archive Content Title Hover"
+msgstr "归档内容标题悬停"
+
+#: colors/functions/functions.php:825
+msgid "Archive Content Title"
+msgstr "归档内容标题"
+
+#: colors/functions/functions.php:574
+msgid "Navigation Search"
+msgstr "导航搜索"
+
+#: woocommerce/functions/functions.php:1309
+#: woocommerce/functions/functions.php:1407
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d 项"
+
+#: woocommerce/functions/functions.php:1303
+msgid "Item added to cart."
+msgstr "项目已添加到购物车。"
+
+#: woocommerce/functions/functions.php:1298
+msgid "Continue Shopping"
+msgstr "继续购物"
+
+#: woocommerce/functions/customizer/customizer.php:792
+msgid "Display quantity buttons"
+msgstr "显示数量按钮"
+
+#: woocommerce/functions/customizer/customizer.php:773
+msgid "Display add to cart panel on scroll"
+msgstr "滚动显示添加到购物车面板"
+
+#: woocommerce/functions/customizer/customizer.php:742
+msgid "Product Image Area Width"
+msgstr "产品图片区宽度"
+
+#: woocommerce/functions/customizer/customizer.php:453
+msgid "Display cart panel on add to cart"
+msgstr "添加到购物车时显示购物车面板"
+
+#: woocommerce/functions/customizer/customizer.php:175
+msgid "Number of Items"
+msgstr "项目数量"
+
+#: woocommerce/functions/customizer/customizer.php:174
+msgid "Amount"
+msgstr "数量"
+
+#: woocommerce/functions/customizer/customizer.php:171
+msgid "Menu Item Content"
+msgstr "菜单项内容"
+
+#: woocommerce/functions/customizer/customizer.php:146
+msgid "Menu Item Icon"
+msgstr "菜单项图标"
+
+#: woocommerce/functions/customizer/customizer.php:126
+msgid "Display mini cart sub-menu"
+msgstr "显示迷你购物车子菜单"
+
+#: typography/functions/slideout-nav-fonts.php:88
+msgid "Menu Items"
+msgstr "菜单项"
+
+#: spacing/functions/customizer/navigation-spacing.php:189
+msgid "Sub-Menu Width"
+msgstr "子菜单宽度"
+
+#: spacing/functions/customizer/content-spacing.php:227
+msgid "Content Separator"
+msgstr "内容分隔符"
+
+#: inc/deprecated-admin.php:239
+msgid "Page Builder:"
+msgstr "页面构建器："
+
+#: inc/deprecated-admin.php:132
+msgid "Checking demo content"
+msgstr "检查演示内容"
+
+#: dist/site-library.js:9
+msgid "New URL"
+msgstr "新网址"
+
+#: dist/site-library.js:9
+msgid "Old URL"
+msgstr "旧网址"
+
+#: dist/site-library.js:9
+msgid "This site is using Elementor which means you will want to replace the imported image URLs."
+msgstr "该站点正在使用 Elementor，这意味着您需要替换导入的图片 URL。"
+
+#: dist/site-library.js:9
+msgid "Additional Cleanup"
+msgstr "额外清理"
+
+#: dist/site-library.js:9
+msgid "This site uses the following plugins."
+msgstr "本站点使用以下插件："
+
+#: secondary-nav/functions/functions.php:359
+msgid "Dropdown Direction"
+msgstr "下拉方向"
+
+#: menu-plus/functions/generate-menu-plus.php:698
+msgid "Inside"
+msgstr "内部"
+
+#: menu-plus/functions/generate-menu-plus.php:697
+msgid "Outside"
+msgstr "外部"
+
+#: menu-plus/functions/generate-menu-plus.php:694
+msgid "Close Button"
+msgstr "关闭按钮"
+
+#: menu-plus/functions/generate-menu-plus.php:674
+msgid "Clicking the above button will design your overlay by changing some of your off canvas color and typography options."
+msgstr "单击上面的按钮将通过更改一些画布颜色和排版选项来设计您的叠加层。"
+
+#: menu-plus/functions/generate-menu-plus.php:673
+msgid "Set Overlay Defaults"
+msgstr "设置重叠默认值"
+
+#: menu-plus/functions/generate-menu-plus.php:635
+msgid "Overlay"
+msgstr "覆盖"
+
+#: menu-plus/functions/generate-menu-plus.php:631
+msgid "Style"
+msgstr "样式"
+
+#: menu-plus/functions/generate-menu-plus.php:470
+msgid "Branding Type"
+msgstr "品牌类型"
+
+#: menu-plus/functions/generate-menu-plus.php:437
+msgid "Breakpoint"
+msgstr "断点"
+
+#: menu-plus/functions/generate-menu-plus.php:401
+msgid "Use Navigation as Header"
+msgstr "使用导航作为页眉"
+
+#: menu-plus/functions/generate-menu-plus.php:314
+msgid "Sticky Navigation Logo"
+msgstr "置顶导航标志"
+
+#: menu-plus/functions/generate-menu-plus.php:20
+msgid "Off Canvas Menu"
+msgstr "关闭画布菜单"
+
+#: library/customizer/controls/class-section-shortcuts-control.php:83
+msgid "More %s controls:"
+msgstr "更多 %s 控制："
+
+#: inc/class-dashboard.php:71
+#: library/customizer/controls/class-section-shortcuts-control.php:55
+msgid "Backgrounds"
+msgstr "背景"
+
+#: library/customizer-helpers.php:76
+msgid "Mobile header font size"
+msgstr "移动端页眉字体大小"
+
+#: library/customizer-helpers.php:69
+msgid "This will design your overlay by changing options in the Customizer for you. Once saved, this can not be undone."
+msgstr "这将通过更改定制器中的选项来设计您的重叠。一旦保存将无法撤消。"
+
+#: elements/class-post-type.php:225
+msgid "All types"
+msgstr "所有类型"
+
+#: elements/class-post-type.php:218
+msgid "Layouts"
+msgstr "布局"
+
+#: elements/class-post-type.php:217 inc/class-dashboard.php:112
+msgid "Hooks"
+msgstr "钩子"
+
+#: elements/class-post-type.php:216
+msgid "Headers"
+msgstr "页眉"
+
+#: elements/class-metabox.php:1597
+msgid "Show this Element to all languages."
+msgstr "向所有语言显示此元素。"
+
+#: elements/class-metabox.php:1596
+msgid "Ignore Languages"
+msgstr "忽略语言"
+
+#: elements/class-metabox.php:1275
+msgid "Content Width"
+msgstr "内容宽度"
+
+#: elements/class-metabox.php:1268
+msgctxt "Width"
+msgid "Contained (no padding)"
+msgstr "容器（无填充）"
+
+#: elements/class-metabox.php:1261
+msgid "Full Width (no padding)"
+msgstr "全宽（无填充）"
+
+#: colors/functions/woocommerce-colors.php:763
+#: woocommerce/fields/woocommerce-colors.php:481
+msgid "Messages"
+msgstr "消息"
+
+#: colors/functions/woocommerce-colors.php:704
+#: woocommerce/fields/woocommerce-colors.php:438
+msgid "Product Tabs"
+msgstr "产品标签"
+
+#: colors/functions/woocommerce-colors.php:690
+#: woocommerce/fields/woocommerce-colors.php:425
+msgid "Slider Bar Color"
+msgstr "轮波调。颜色"
+
+#: colors/functions/woocommerce-colors.php:668
+#: woocommerce/fields/woocommerce-colors.php:409
+msgid "Slider Background Color"
+msgstr "轮播背景颜色"
+
+#: colors/functions/woocommerce-colors.php:647
+#: woocommerce/fields/woocommerce-colors.php:395
+msgid "Price Slider Widget"
+msgstr "价格轮播小工具"
+
+#: colors/functions/woocommerce-colors.php:541
+msgid "Cart Text Color"
+msgstr "购物车文字颜色"
+
+#: colors/functions/woocommerce-colors.php:517
+msgid "Cart Background Color"
+msgstr "购物车背景颜色"
+
+#: colors/functions/woocommerce-colors.php:495
+#: woocommerce/fields/woocommerce-colors.php:304
+msgid "Menu Mini Cart"
+msgstr "菜单迷你购物车"
+
+#: colors/functions/woocommerce-colors.php:481
+#: colors/functions/woocommerce-colors.php:633
+#: woocommerce/fields/woocommerce-colors.php:291
+#: woocommerce/fields/woocommerce-colors.php:382
+msgid "Button Text Hover"
+msgstr "按钮文字悬停"
+
+#: colors/functions/woocommerce-colors.php:458
+#: colors/functions/woocommerce-colors.php:610
+#: woocommerce/fields/woocommerce-colors.php:283
+#: woocommerce/fields/woocommerce-colors.php:374
+msgid "Button Text"
+msgstr "按钮文字"
+
+#: colors/functions/woocommerce-colors.php:435
+#: colors/functions/woocommerce-colors.php:587
+#: woocommerce/fields/woocommerce-colors.php:267
+#: woocommerce/fields/woocommerce-colors.php:358
+msgid "Button Background Hover"
+msgstr "按钮背景固定"
+
+#: colors/functions/woocommerce-colors.php:412
+#: colors/functions/woocommerce-colors.php:564
+#: woocommerce/fields/woocommerce-colors.php:259
+#: woocommerce/fields/woocommerce-colors.php:350
+msgid "Button Background"
+msgstr "按钮背景"
+
+#: colors/functions/woocommerce-colors.php:343
+#: woocommerce/fields/woocommerce-colors.php:213
+msgid "Sticky Panel Cart"
+msgstr "置顶面板车"
+
+#: colors/functions/woocommerce-colors.php:190
+#: woocommerce/fields/woocommerce-colors.php:114
+msgid "Products"
+msgstr "产品"
+
+#: colors/functions/slideout-nav-colors.php:88
+msgid "Parent Menu Items"
+msgstr "父菜单项"
+
+#: colors/functions/slideout-nav-colors.php:57
+#: colors/functions/slideout-nav-colors.php:70
+#: menu-plus/fields/slideout-nav-colors.php:34
+#: menu-plus/functions/generate-menu-plus.php:550
+#: menu-plus/functions/generate-menu-plus.php:563
+#: menu-plus/functions/generate-menu-plus.php:587
+#: menu-plus/functions/generate-menu-plus.php:1207
+#: typography/functions/slideout-nav-fonts.php:38
+#: typography/functions/slideout-nav-fonts.php:51
+msgid "Off Canvas Panel"
+msgstr "非画布面板"
+
+#: colors/functions/functions.php:1282
+msgid "Footer Bar"
+msgstr "页脚栏"
+
+#: colors/functions/functions.php:644 typography/functions/functions.php:807
+msgid "Button"
+msgstr "按钮"
+
+#. Author of the plugin
+msgid "Tom Usborne"
+msgstr "Tom Usborne"
+
+#. Description of the plugin
+msgid "The entire collection of GeneratePress premium modules."
+msgstr "完整的 GeneratePress premium 模块集。"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://generatepress.com"
+msgstr "https://generatepress.com"
+
+#: woocommerce/functions/functions.php:1236
+msgid "out of 5"
+msgstr "out of 5"
+
+#: woocommerce/functions/functions.php:1231
+msgid "Not yet rated"
+msgstr "尚未评分"
+
+#: woocommerce/functions/functions.php:1229
+msgid "Rated %s out of 5"
+msgstr "Rated %s out of 5"
+
+#: woocommerce/functions/functions.php:643
+msgid "View your shopping cart"
+msgstr "查看您的购物车"
+
+#: woocommerce/functions/customizer/customizer.php:1025
+msgid "Remove unnecessary distractions like sidebars, footer widgets and sticky menus."
+msgstr "去掉侧边栏，页脚小部件和固定菜单等不必要的干扰。"
+
+#: woocommerce/functions/customizer/customizer.php:1024
+msgid "Distraction-free mode"
+msgstr "免打扰模式"
+
+#: woocommerce/functions/customizer/customizer.php:1005
+#: woocommerce/functions/functions.php:1324
+msgid "Checkout"
+msgstr "结帐"
+
+#: colors/functions/woocommerce-colors.php:83
+msgid "Primary button colors can be set <a href=\"#\">here</a>."
+msgstr "主要按钮颜色可以设置为<a href=\"#\">此处</a>."
+
+#: colors/functions/woocommerce-colors.php:82
+msgid "Primary Button Colors"
+msgstr "主要按钮颜色"
+
+#: woocommerce/functions/customizer/customizer.php:953
+msgid "Display product meta data"
+msgstr "显示产品元数据"
+
+#: woocommerce/functions/customizer/customizer.php:906
+msgid "Related/Upsell Columns"
+msgstr "相关/附加销售栏"
+
+#: woocommerce/functions/customizer/customizer.php:868
+msgid "Display upsell products"
+msgstr "显示附加销售产品"
+
+#: woocommerce/functions/customizer/customizer.php:849
+msgid "Display related products"
+msgstr "显示相关产品"
+
+#: woocommerce/functions/customizer/customizer.php:830
+msgid "Display product tabs"
+msgstr "显示产品选项卡"
+
+#: woocommerce/functions/customizer/customizer.php:694
+msgid "Single Product"
+msgstr "单个产品"
+
+#: woocommerce/functions/customizer/customizer.php:681
+#: woocommerce/functions/customizer/customizer.php:972
+msgid "Display short description"
+msgstr "显示简短说明"
+
+#: woocommerce/functions/customizer/customizer.php:662
+msgid "Display add to cart button"
+msgstr "显示添加到购物车按钮"
+
+#: woocommerce/functions/customizer/customizer.php:643
+msgid "Display price"
+msgstr "显示价格"
+
+#: woocommerce/functions/customizer/customizer.php:624
+msgid "Display rating"
+msgstr "显示评级"
+
+#: woocommerce/functions/customizer/customizer.php:605
+msgid "Sale flash over image"
+msgstr "Sale flash over image"
+
+#: woocommerce/functions/customizer/customizer.php:586
+#: woocommerce/functions/customizer/customizer.php:811
+msgid "Display sale flash"
+msgstr "Display sale flash"
+
+#: woocommerce/functions/customizer/customizer.php:567
+msgid "Display product title"
+msgstr "显示产品标题"
+
+#: woocommerce/functions/customizer/customizer.php:548
+msgid "Display secondary image on hover"
+msgstr "悬停时显示辅助图像"
+
+#: woocommerce/functions/customizer/customizer.php:529
+msgid "Display product image"
+msgstr "显示产品图片"
+
+#: woocommerce/functions/customizer/customizer.php:510
+msgid "Display product sorting"
+msgstr "显示产品分类"
+
+#: woocommerce/functions/customizer/customizer.php:491
+msgid "Display product results count"
+msgstr "显示产品结果数量"
+
+#: woocommerce/functions/customizer/customizer.php:472
+msgid "Display page title"
+msgstr "显示页面标题"
+
+#: woocommerce/functions/customizer/customizer.php:429
+msgid "Text Alignment"
+msgstr "文本位置"
+
+#: woocommerce/functions/customizer/customizer.php:410
+msgid "Products Per Page"
+msgstr "每页产品"
+
+#: woocommerce/functions/customizer/customizer.php:386
+msgid "Image Alignment"
+msgstr "图像对齐"
+
+#: woocommerce/functions/customizer/customizer.php:273
+msgid "Product Columns"
+msgstr "产品列"
+
+#: woocommerce/functions/customizer/customizer.php:235
+#: woocommerce/functions/customizer/customizer.php:722
+msgid "Content / Sidebar / Sidebar"
+msgstr "内容 / 边栏 / 边栏"
+
+#: woocommerce/functions/customizer/customizer.php:234
+#: woocommerce/functions/customizer/customizer.php:721
+msgid "Sidebar / Sidebar / Content"
+msgstr "边栏 / 边栏 / 内容"
+
+#: woocommerce/functions/customizer/customizer.php:233
+#: woocommerce/functions/customizer/customizer.php:720
+msgid "Sidebar / Content / Sidebar"
+msgstr "边栏 / 内容 / 边栏"
+
+#: woocommerce/functions/customizer/customizer.php:231
+#: woocommerce/functions/customizer/customizer.php:718
+msgid "Content / Sidebar"
+msgstr "内容 / 边栏"
+
+#: woocommerce/functions/customizer/customizer.php:230
+#: woocommerce/functions/customizer/customizer.php:717
+msgid "Sidebar / Content"
+msgstr "边栏 / 内容"
+
+#: woocommerce/functions/customizer/customizer.php:208
+msgid "Shop"
+msgstr "商店"
+
+#: woocommerce/functions/customizer/customizer.php:195
+msgid "Display breadcrumbs"
+msgstr "显示面包屑"
+
+#: woocommerce/functions/customizer/customizer.php:151
+msgid "Shopping Basket"
+msgstr "购物篮"
+
+#: woocommerce/functions/customizer/customizer.php:150
+msgid "Shopping Bag"
+msgstr "购物袋"
+
+#: woocommerce/functions/customizer/customizer.php:149
+msgid "Shopping Cart"
+msgstr "购物车"
+
+#: woocommerce/functions/customizer/customizer.php:107
+msgid "Display cart in menu"
+msgstr "在菜单中显示购物车"
+
+#: colors/functions/woocommerce-colors.php:52 inc/class-dashboard.php:164
+#: typography/functions/woocommerce-fonts.php:42
+#: woocommerce/fields/woocommerce-colors.php:29
+#: woocommerce/fields/woocommerce-colors.php:588
+#: woocommerce/functions/customizer/customizer.php:57
+#: woocommerce/functions/customizer/customizer.php:70
+#: woocommerce/functions/customizer/customizer.php:981
+#: woocommerce/functions/customizer/customizer.php:991 dist/customizer.js:1
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: typography/functions/woocommerce-fonts.php:159
+msgid "Related/upsell title font size"
+msgstr "相关/附加销售标题字体大小"
+
+#: typography/functions/functions.php:2360
+msgid "Content font size"
+msgstr "内容字体大小"
+
+#: typography/functions/functions.php:1107
+#: typography/functions/functions.php:1410
+#: typography/functions/functions.php:1721
+#: typography/functions/functions.php:2326
+msgid "Bottom margin"
+msgstr "底边距"
+
+#: typography/functions/functions.php:2264
+msgid "Widget Titles"
+msgstr "小工具标题"
+
+#: typography/functions/functions.php:2188
+#: typography/functions/functions.php:2202
+msgid "Widgets"
+msgstr "小工具"
+
+#: typography/functions/functions.php:2105
+msgid "Heading 6 (H6)"
+msgstr "标题 6 (H6)"
+
+#: typography/functions/functions.php:1948
+msgid "Heading 5 (H5)"
+msgstr "标题 5 (H5)"
+
+#: typography/functions/functions.php:1791
+msgid "Heading 4 (H4)"
+msgstr "标题 4 (H4)"
+
+#: typography/functions/functions.php:1598
+msgid "Heading 3 (H3)"
+msgstr "标题3 (H3)"
+
+#: typography/functions/functions.php:1295
+msgid "Heading 2 (H2)"
+msgstr "标题2 (H2)"
+
+#: typography/functions/functions.php:992
+msgid "Heading 1 (H1)"
+msgstr "标题1 (H1)"
+
+#: typography/functions/functions.php:917
+msgid "Headings"
+msgstr "标题"
+
+#: typography/functions/functions.php:234
+msgid "Paragraph margin"
+msgstr "段落边距"
+
+#: typography/functions/functions.php:200
+#: typography/functions/functions.php:1072
+#: typography/functions/functions.php:1227
+#: typography/functions/functions.php:1375
+#: typography/functions/functions.php:1530
+#: typography/functions/functions.php:1686
+#: typography/functions/functions.php:1878
+#: typography/functions/functions.php:2035
+#: typography/functions/functions.php:2166
+msgid "Line height"
+msgstr "行高"
+
+#: library/customizer-helpers.php:75 typography/functions/functions.php:166
+#: typography/functions/functions.php:346
+#: typography/functions/functions.php:495
+#: typography/functions/functions.php:609
+#: typography/functions/functions.php:755
+#: typography/functions/functions.php:895
+#: typography/functions/functions.php:1030
+#: typography/functions/functions.php:1186
+#: typography/functions/functions.php:1333
+#: typography/functions/functions.php:1489
+#: typography/functions/functions.php:1662
+#: typography/functions/functions.php:1855
+#: typography/functions/functions.php:2012
+#: typography/functions/functions.php:2133
+#: typography/functions/functions.php:2292
+#: typography/functions/functions.php:2487
+#: typography/functions/secondary-nav-fonts.php:157
+#: typography/functions/slideout-nav-fonts.php:124
+#: typography/functions/woocommerce-fonts.php:116
+msgid "Font size"
+msgstr "字体大小"
+
+#: inc/class-dashboard.php:158 library/customizer-helpers.php:261
+#: library/customizer/controls/class-section-shortcuts-control.php:42
+#: typography/functions/functions.php:53 dist/dashboard.js:1
+msgid "Typography"
+msgstr "排版"
+
+#: spacing/functions/functions.php:50
+msgid "Change the spacing for various elements using pixels."
+msgstr "使用像素更改各种元素的间距。"
+
+#: inc/class-dashboard.php:150 spacing/functions/functions.php:49
+msgid "Spacing"
+msgstr "间距"
+
+#: spacing/functions/customizer/top-bar-spacing.php:59
+msgid "Top Bar Padding"
+msgstr "顶部栏填充"
+
+#: spacing/functions/customizer/sidebar-spacing.php:194
+msgid "Right Sidebar Width"
+msgstr "右边栏宽度"
+
+#: spacing/functions/customizer/sidebar-spacing.php:158
+msgid "Left Sidebar Width"
+msgstr "左边栏宽度"
+
+#: spacing/functions/customizer/sidebar-spacing.php:123
+msgid "Widget Padding"
+msgstr "小工具内边距"
+
+#: spacing/functions/customizer/navigation-spacing.php:153
+#: spacing/functions/customizer/secondary-nav-spacing.php:140
+msgid "Sub-Menu Item Height"
+msgstr "子菜单项高度"
+
+#: spacing/functions/customizer/navigation-spacing.php:109
+#: spacing/functions/customizer/navigation-spacing.php:226
+#: spacing/functions/customizer/navigation-spacing.php:263
+#: spacing/functions/customizer/secondary-nav-spacing.php:104
+msgid "Menu Item Height"
+msgstr "菜单项高度"
+
+#: spacing/functions/customizer/navigation-spacing.php:54
+#: spacing/functions/customizer/secondary-nav-spacing.php:68
+msgid "Menu Item Width"
+msgstr "菜单项宽度"
+
+#: spacing/functions/customizer/header-spacing.php:120
+msgid "Header Padding"
+msgstr "页眉内边距"
+
+#: spacing/functions/customizer/footer-spacing.php:195
+msgid "Footer Padding"
+msgstr "页脚内边距"
+
+#: spacing/functions/customizer/footer-spacing.php:126
+msgid "Footer Widget Area Padding"
+msgstr "页脚小工具区域内边距"
+
+#: spacing/functions/customizer/content-spacing.php:202
+msgid "Content Padding"
+msgstr "内容内边距"
+
+#: spacing/functions/customizer/content-spacing.php:73
+msgid "Separating Space"
+msgstr "分隔空间"
+
+#: spacing/functions/customizer/content-spacing.php:37
+msgid "Container Width"
+msgstr "容器宽度"
+
+#: inc/deprecated-admin.php:492 site-library/class-site-library.php:210
+msgctxt "Module name"
+msgid "GeneratePress Site"
+msgstr "GeneratePress 站点"
+
+#: inc/deprecated-admin.php:303 inc/deprecated.php:619
+msgid "Refresh Sites"
+msgstr "刷新站点"
+
+#: dist/dashboard.js:1 dist/site-library.js:3
+msgid "All"
+msgstr "所有"
+
+#: inc/deprecated-admin.php:212 site-library/class-site-library.php:155
+msgid "Documentation"
+msgstr "文档"
+
+#: inc/deprecated-admin.php:211 site-library/class-site-library.php:154
+msgid "Support"
+msgstr "支持"
+
+#: inc/deprecated-admin.php:207 site-library/class-site-library.php:150
+msgid "GeneratePress Site Library"
+msgstr "GeneratePress 站点库"
+
+#: inc/class-dashboard.php:175 inc/deprecated-admin.php:45
+#: inc/deprecated-admin.php:62 inc/deprecated-admin.php:63
+#: site-library/class-site-library.php:60
+#: site-library/class-site-library.php:61
+#: site-library/class-site-library.php:179
+msgid "Site Library"
+msgstr "站点库"
+
+#: site-library/class-site-library-rest.php:513
+msgid "Plugins activated"
+msgstr "插件已激活"
+
+#: dist/site-library.js:9
+msgid "View Site"
+msgstr "查看站点"
+
+#: inc/deprecated-admin.php:283
+msgid "Skip"
+msgstr "跳过"
+
+#: library/customizer/controls/class-section-shortcuts-control.php:87
+msgid "Go Back"
+msgstr "返回"
+
+#: dist/site-library.js:9
+msgid "Get Started"
+msgstr "开始使用"
+
+#: dist/site-library.js:9
+msgid "Plugins"
+msgstr "插件"
+
+#: inc/deprecated-admin.php:140
+msgid "Manual"
+msgstr "手册"
+
+#: inc/deprecated-admin.php:139
+msgid "Automatic"
+msgstr "自动"
+
+#: inc/deprecated-admin.php:138 dist/site-library.js:1
+msgid "Installing plugins"
+msgstr "安装插件中"
+
+#: inc/deprecated-admin.php:137 dist/site-library.js:3
+msgid "Activating plugins"
+msgstr "激活插件"
+
+#: inc/deprecated-admin.php:136 dist/site-library.js:3
+msgid "Importing widgets"
+msgstr "导入小部件"
+
+#: inc/deprecated-admin.php:135 dist/site-library.js:3
+msgid "Importing site options"
+msgstr "正在导入站点选项"
+
+#: inc/deprecated-admin.php:134 dist/site-library.js:3
+msgid "Importing content"
+msgstr "正在导入内容"
+
+#: inc/deprecated-admin.php:133
+msgid "Downloading content"
+msgstr "正在下载内容"
+
+#: inc/deprecated-admin.php:130
+msgid "Importing options"
+msgstr "导入选项"
+
+#: inc/deprecated-admin.php:131
+msgid "Backing up options"
+msgstr "备份选项"
+
+#: sections/functions/templates/template.php:107
+msgid "No sections added!"
+msgstr "未添加任何模块！"
+
+#: sections/functions/metaboxes/views/use-sections.php:15
+msgid "Use Sections"
+msgstr "使用模块"
+
+#: sections/functions/metaboxes/views/sections.php:8
+msgid "Javascript must be enabled to use Generate Sections"
+msgstr "必须启用 JavaScript 才能使用 Generate Sections"
+
+#: sections/functions/metaboxes/views/sections-template.php:265
+msgid "Background Color Overlay"
+msgstr "背景色覆盖"
+
+#: sections/functions/metaboxes/views/sections-template.php:261
+#: sections/functions/metaboxes/views/sections-template.php:269
+msgid "Enable"
+msgstr "启用"
+
+#: sections/functions/metaboxes/views/sections-template.php:260
+#: sections/functions/metaboxes/views/sections-template.php:268
+msgid "Disable"
+msgstr "禁用"
+
+#: sections/functions/metaboxes/views/sections-template.php:257
+msgid "Parallax Effect"
+msgstr "视差效果"
+
+#: sections/functions/metaboxes/views/sections-template.php:211
+msgid "Bottom Padding"
+msgstr "底部内边距"
+
+#: sections/functions/metaboxes/views/sections-template.php:202
+msgid "Top Padding"
+msgstr "顶部内边距"
+
+#: sections/functions/metaboxes/views/sections-template.php:196
+msgid "Custom Classes"
+msgstr "自定义类"
+
+#: sections/functions/metaboxes/views/sections-template.php:190
+msgid "Custom ID"
+msgstr "自定义 ID"
+
+#: sections/functions/metaboxes/views/sections-template.php:181
+msgid "Inner Box Type"
+msgstr "模块内部类型"
+
+#: sections/functions/metaboxes/views/sections-template.php:172
+msgid "Box Type"
+msgstr "模块类型"
+
+#: sections/functions/metaboxes/views/sections-template.php:133
+msgctxt "Name for the Text editor tab (formerly HTML)"
+msgid "Text"
+msgstr "文本"
+
+#: sections/functions/metaboxes/views/sections-template.php:132
+msgid "Visual"
+msgstr "可视化"
+
+#: sections/functions/metaboxes/views/sections-template.php:127
+msgid "Add Media"
+msgstr "添加媒体"
+
+#: sections/functions/metaboxes/views/sections-template.php:110
+msgid "Section Label"
+msgstr "模块标签"
+
+#: sections/functions/metaboxes/views/sections-template.php:81
+msgid "Cancel"
+msgstr "取消"
+
+#: sections/functions/metaboxes/views/sections-template.php:55
+msgid "Remove Sections"
+msgstr "移除模块"
+
+#: sections/functions/metaboxes/views/sections-template.php:54
+msgid "Add Section"
+msgstr "添加模块"
+
+#: sections/functions/metaboxes/views/sections-template.php:40
+msgid "Click to remove"
+msgstr "点击移除"
+
+#: sections/functions/metaboxes/views/sections-template.php:39
+msgid "Click and drag to sort"
+msgstr "点击拖拽位置"
+
+#: sections/functions/metaboxes/views/sections-template.php:38
+msgid "Click to edit settings"
+msgstr "点击编辑设置"
+
+#: sections/functions/metaboxes/views/sections-template.php:37
+msgid "Click to edit content"
+msgstr "点击编辑内容"
+
+#: sections/functions/metaboxes/views/sections-template.php:35
+msgid "Click to edit"
+msgstr "点击编辑"
+
+#: sections/functions/metaboxes/metabox-functions.php:267
+#: sections/functions/metaboxes/views/sections-template.php:74
+msgid "Edit Section"
+msgstr "编辑模块"
+
+#: sections/functions/metaboxes/metabox-functions.php:266
+msgid "Insert into Section"
+msgstr "插入模块"
+
+#: sections/functions/metaboxes/metabox-functions.php:262
+msgid "Set as Section Background"
+msgstr "设为模块背景"
+
+#: sections/functions/metaboxes/metabox-functions.php:261
+msgid "Section Background"
+msgstr "模块背景"
+
+#: sections/functions/metaboxes/metabox-functions.php:252
+msgid "Section"
+msgstr "模块"
+
+#: sections/functions/metaboxes/metabox-functions.php:249
+msgid "This action can not be undone, are you sure?"
+msgstr "操作无法取消，确定继续？"
+
+#: inc/class-dashboard.php:144
+#: sections/functions/metaboxes/metabox-functions.php:47
+#: sections/functions/metaboxes/metabox-functions.php:56
+msgid "Sections"
+msgstr "模块"
+
+#: secondary-nav/functions/functions.php:383
+msgid "Merge with Secondary Navigation"
+msgstr "与二级导航合并"
+
+#: secondary-nav/functions/functions.php:305
+msgid "Navigation Alignment"
+msgstr "导航对其"
+
+#: secondary-nav/functions/functions.php:280
+msgid "Inner Navigation Width"
+msgstr "内导航宽度"
+
+#: secondary-nav/functions/functions.php:258
+#: secondary-nav/functions/functions.php:283
+msgctxt "Width"
+msgid "Full"
+msgstr "全部"
+
+#: secondary-nav/functions/functions.php:255
+msgid "Navigation Width"
+msgstr "导航宽度"
+
+#: secondary-nav/functions/functions.php:25
+msgid "Secondary Menu"
+msgstr "副菜单"
+
+#: elements/class-post-type.php:495
+#: menu-plus/functions/generate-menu-plus.php:1181
+#: menu-plus/functions/generate-menu-plus.php:1996
+#: sections/functions/metaboxes/views/sections-template.php:69
+msgid "Close"
+msgstr "关闭"
+
+#: menu-plus/functions/generate-menu-plus.php:655
+msgid "Side"
+msgstr "侧边"
+
+#: menu-plus/functions/generate-menu-plus.php:473
+#: menu-plus/functions/generate-menu-plus.php:495
+msgid "Logo"
+msgstr "Logo"
+
+#: disable-elements/functions/functions.php:339
+#: disable-elements/functions/functions.php:341 elements/class-metabox.php:1181
+#: menu-plus/functions/generate-menu-plus.php:380
+#: menu-plus/functions/generate-menu-plus.php:421
+msgid "Mobile Header"
+msgstr "便携设备页眉"
+
+#: menu-plus/functions/generate-menu-plus.php:366
+msgid "Static"
+msgstr "静止"
+
+#: menu-plus/functions/generate-menu-plus.php:365
+msgid "Sticky + Static"
+msgstr "固定+静态"
+
+#: menu-plus/functions/generate-menu-plus.php:364
+#: menu-plus/functions/generate-menu-plus.php:516
+msgid "Sticky"
+msgstr "固定"
+
+#: menu-plus/functions/generate-menu-plus.php:361
+msgid "Navigation Logo Placement"
+msgstr "导航 Logo 放置"
+
+#: menu-plus/functions/generate-menu-plus.php:291
+#: menu-plus/functions/generate-menu-plus.php:540
+msgid "Hide when scrolling down"
+msgstr "向下滚动时隐藏"
+
+#: inc/deprecated-admin.php:242 menu-plus/functions/generate-menu-plus.php:270
+#: dist/block-elements.js:1 dist/site-library.js:3
+msgid "None"
+msgstr "无"
+
+#: menu-plus/functions/generate-menu-plus.php:269
+#: menu-plus/functions/generate-menu-plus.php:634
+msgid "Slide"
+msgstr "划入"
+
+#: menu-plus/functions/generate-menu-plus.php:268
+msgid "Fade"
+msgstr "淡入"
+
+#: menu-plus/functions/generate-menu-plus.php:265
+msgid "Transition"
+msgstr "过渡"
+
+#: menu-plus/functions/generate-menu-plus.php:245
+#: menu-plus/functions/generate-menu-plus.php:424
+#: menu-plus/functions/generate-menu-plus.php:520
+#: menu-plus/functions/generate-menu-plus.php:593
+msgid "Off"
+msgstr "关闭"
+
+#: menu-plus/functions/generate-menu-plus.php:244
+#: menu-plus/functions/generate-menu-plus.php:425
+#: menu-plus/functions/generate-menu-plus.php:519
+#: menu-plus/functions/generate-menu-plus.php:592
+msgid "On"
+msgstr "开"
+
+#: menu-plus/functions/generate-menu-plus.php:243
+#: menu-plus/functions/generate-menu-plus.php:591
+msgid "Desktop only"
+msgstr "桌面设备"
+
+#: menu-plus/functions/generate-menu-plus.php:242
+#: menu-plus/functions/generate-menu-plus.php:590
+msgid "Mobile only"
+msgstr "便携设备"
+
+#: menu-plus/functions/generate-menu-plus.php:219
+#: menu-plus/functions/generate-menu-plus.php:239
+msgid "Sticky Navigation"
+msgstr "粘性导航"
+
+#: menu-plus/functions/generate-menu-plus.php:176
+#: secondary-nav/functions/functions.php:234
+msgid "Mobile Menu Label"
+msgstr "便携设备菜单标签"
+
+#: menu-plus/functions/generate-menu-plus.php:158
+msgid "General Settings"
+msgstr "通用设置"
+
+#: inc/class-dashboard.php:120 menu-plus/functions/generate-menu-plus.php:132
+msgid "Menu Plus"
+msgstr "菜单+"
+
+#: menu-plus/functions/generate-menu-plus.php:34
+#: menu-plus/functions/generate-menu-plus.php:1070
+#: menu-plus/functions/generate-menu-plus.php:1080
+#: secondary-nav/functions/functions.php:732
+msgid "Menu"
+msgstr "菜单"
+
+#: library/customizer/controls/class-typography-control.php:183
+msgid "lowercase"
+msgstr "小写"
+
+#: library/customizer/controls/class-typography-control.php:182
+msgid "uppercase"
+msgstr "大写"
+
+#: library/customizer/controls/class-typography-control.php:181
+msgid "capitalize"
+msgstr "利用"
+
+#: library/customizer/controls/class-typography-control.php:180
+msgid "none"
+msgstr "无"
+
+#: library/customizer/controls/class-typography-control.php:164
+msgid "bold"
+msgstr "粗体"
+
+#: library/customizer/controls/class-typography-control.php:163
+msgid "normal"
+msgstr "标准"
+
+#: library/customizer/controls/class-typography-control.php:31
+msgid "Variants"
+msgstr "变量"
+
+#: library/customizer/controls/class-typography-control.php:29
+msgid "Text transform"
+msgstr "文字转译"
+
+#: library/customizer/controls/class-typography-control.php:28
+msgid "Font weight"
+msgstr "字体粗细"
+
+#: library/customizer/controls/class-typography-control.php:27
+msgid "Font family"
+msgstr "字体系列"
+
+#: library/customizer/controls/class-typography-control.php:25
+msgid "Google Fonts"
+msgstr "Google 字体"
+
+#: library/customizer/controls/class-typography-control.php:24
+msgid "System Fonts"
+msgstr "系统字体"
+
+#: library/customizer/controls/class-spacing-control.php:38
+msgid "Un-link values"
+msgstr "取消链接值"
+
+#: library/customizer/controls/class-spacing-control.php:37
+msgid "Link values"
+msgstr "链接值"
+
+#: library/customizer/controls/class-range-slider-control.php:45
+#: library/customizer/controls/class-spacing-control.php:46
+msgid "Mobile"
+msgstr "移动设备"
+
+#: library/customizer/controls/class-range-slider-control.php:44
+#: library/customizer/controls/class-spacing-control.php:45
+msgid "Tablet"
+msgstr "平板"
+
+#: library/customizer/controls/class-range-slider-control.php:43
+#: library/customizer/controls/class-spacing-control.php:44
+msgid "Desktop"
+msgstr "桌面"
+
+#: library/customizer/controls/class-copyright-control.php:28
+msgid "Shortcodes are allowed."
+msgstr "允许短代码。"
+
+#: library/customizer/controls/class-copyright-control.php:27
+msgid "HTML is allowed."
+msgstr "允许 HTML。"
+
+#: library/customizer/controls/class-copyright-control.php:26
+msgid "<code>%copy%</code> to include the copyright symbol."
+msgstr "<code>%copy%</code> 版权符号的代码。"
+
+#: library/customizer/controls/class-copyright-control.php:25
+msgid "<code>%current_year%</code> to update year automatically."
+msgstr "<code>%current_year%</code> 自动更换当前年份的代码。"
+
+#: library/customizer/controls/class-backgrounds-control.php:142
+#: woocommerce/functions/customizer/customizer.php:716
+msgid "Inherit"
+msgstr "继承"
+
+#: library/customizer/controls/class-backgrounds-control.php:141
+msgid "Local"
+msgstr "Local效果"
+
+#: library/customizer/controls/class-backgrounds-control.php:140
+msgid "Fixed"
+msgstr "Fixed效果"
+
+#: library/customizer/controls/class-backgrounds-control.php:139
+msgid "Attachment"
+msgstr "附件"
+
+#: library/customizer/controls/class-backgrounds-control.php:133
+msgid "Contain"
+msgstr "平铺"
+
+#: library/customizer/controls/class-backgrounds-control.php:132
+msgid "Cover"
+msgstr "覆盖"
+
+#: library/customizer/controls/class-backgrounds-control.php:131
+msgid "100% Width"
+msgstr "100% 宽度"
+
+#: library/customizer/controls/class-backgrounds-control.php:130
+msgid "Size (Auto)"
+msgstr "大小（自动）"
+
+#: library/customizer/controls/class-backgrounds-control.php:19
+msgid "Position"
+msgstr "位置"
+
+#: library/customizer/controls/class-backgrounds-control.php:18
+msgid "left top, x% y%, xpos ypos (px)"
+msgstr "左上方, x% y%, xpos ypos (px)"
+
+#: inc/legacy/reset.php:68
+#: library/customizer/controls/class-range-slider-control.php:46
+#: dist/dashboard.js:1
+msgid "Reset"
+msgstr "重置"
+
+#: inc/legacy/reset.php:65
+msgid "Warning: This will delete your settings and can not be undone."
+msgstr "警告：这会删除您的设置并且无法撤消。"
+
+#: inc/legacy/reset.php:19
+msgid "Reset Settings"
+msgstr "重置设置"
+
+#: inc/legacy/dashboard.php:24 dist/dashboard.js:1
+msgid "Modules"
+msgstr "模块"
+
+#: inc/legacy/activation.php:606
+msgid "Enter valid license key for automatic updates."
+msgstr "输入有效的许可证密钥以进行自动更新。"
+
+#: inc/class-rest.php:251 inc/legacy/activation.php:561
+msgid "An error occurred, please try again."
+msgstr "发生错误，请重试。"
+
+#: inc/class-rest.php:247 inc/legacy/activation.php:556
+msgid "Your license key has reached its activation limit."
+msgstr "许可证达到激活上限。"
+
+#: inc/legacy/activation.php:551
+msgid "This appears to be an invalid license key for GP Premium."
+msgstr "这似乎是 GP Premium 的无效许可证密钥。"
+
+#: inc/class-rest.php:238 inc/legacy/activation.php:546
+msgid "Your license is not active for this URL."
+msgstr "您的许可证对此 URL 无效。"
+
+#: inc/class-rest.php:233 inc/legacy/activation.php:540
+msgid "Invalid license."
+msgstr "无效的许可证。"
+
+#: inc/class-rest.php:229 inc/legacy/activation.php:535
+msgid "Your license key has been disabled."
+msgstr "您的许可证密钥已被禁用。"
+
+#. translators: License key expiration date.
+#: inc/class-rest.php:222 inc/legacy/activation.php:528
+msgid "Your license key expired on %s."
+msgstr "您的授权码将于 %s 过期。"
+
+#: inc/legacy/activation.php:427
+msgid "Save"
+msgstr "保存"
+
+#: inc/legacy/activation.php:423
+msgid "Receive beta updates"
+msgstr "接收测试版更新"
+
+#: inc/legacy/activation.php:418 dist/dashboard.js:1
+msgid "License Key"
+msgstr "许可证"
+
+#: inc/legacy/activation.php:411 inc/legacy/activation.php:423
+msgid "Help"
+msgstr "帮助"
+
+#: inc/legacy/activation.php:408
+msgid "Updates"
+msgstr "更新"
+
+#: inc/legacy/activation.php:402
+msgid "Not receiving updates"
+msgstr "未收到更新"
+
+#: inc/legacy/activation.php:400
+msgid "Receiving updates"
+msgstr "接收更新"
+
+#: inc/legacy/activation.php:191
+msgid "WooCommerce not activated."
+msgstr "WooCommerce 没有激活。"
+
+#: inc/legacy/activation.php:147
+#: sections/functions/metaboxes/views/sections-template.php:80
+msgid "Apply"
+msgstr "应用"
+
+#: inc/legacy/activation.php:144 inc/legacy/activation.php:173
+#: dist/dashboard.js:1
+msgid "Deactivate"
+msgstr "停用"
+
+#: inc/legacy/activation.php:143 inc/legacy/activation.php:194
+#: dist/dashboard.js:1
+msgid "Activate"
+msgstr "激活"
+
+#: inc/legacy/activation.php:142
+msgid "Bulk Actions"
+msgstr "批量操作"
+
+#. Plugin Name of the plugin
+#. translators: GP Premium
+#: inc/class-rest.php:243 inc/legacy/activation.php:134
+msgid "GP Premium"
+msgstr "GP Premium"
+
+#: inc/legacy/activation.php:61
+msgid "License activated."
+msgstr "许可证已激活。"
+
+#: inc/legacy/activation.php:57
+msgid "License deactivated."
+msgstr "许可证已注销。"
+
+#: inc/class-rest.php:150 inc/legacy/activation.php:43
+msgid "Module activated."
+msgstr "模块已激活。"
+
+#: inc/class-rest.php:155 inc/legacy/activation.php:39
+msgid "Module deactivated."
+msgstr "模块已停用。"
+
+#: inc/legacy/activation.php:27 dist/dashboard.js:1
+msgid "This module has been deprecated. Deactivating it will remove it from this list."
+msgstr "此模块已被弃用。停用它将把它从这个列表中删除。"
+
+#: inc/legacy/import-export.php:248
+msgid "Please upload a file to import"
+msgstr "请上传文件以导入设置"
+
+#: inc/legacy/import-export.php:242
+msgid "Please upload a valid .json file"
+msgstr "请上传可用的 .json 文件"
+
+#: inc/legacy/import-export.php:141 inc/legacy/import-export.php:149
+#: dist/dashboard.js:1 dist/site-library.js:9
+msgid "Import"
+msgstr "导入"
+
+#: inc/legacy/import-export.php:61 inc/legacy/import-export.php:137
+#: dist/dashboard.js:1
+msgid "Export"
+msgstr "导出"
+
+#: inc/legacy/import-export.php:128 inc/legacy/reset.php:59
+msgctxt "Module name"
+msgid "Copyright"
+msgstr "版权"
+
+#: inc/legacy/import-export.php:121 inc/legacy/reset.php:55
+msgctxt "Module name"
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/legacy/import-export.php:114 inc/legacy/reset.php:51
+msgctxt "Module name"
+msgid "Menu Plus"
+msgstr "菜单+"
+
+#: inc/legacy/import-export.php:107 inc/legacy/reset.php:47
+msgctxt "Module name"
+msgid "Spacing"
+msgstr "间距"
+
+#: inc/legacy/import-export.php:100 inc/legacy/reset.php:43
+msgctxt "Module name"
+msgid "Secondary Navigation"
+msgstr "副导航"
+
+#: inc/legacy/import-export.php:93 inc/legacy/reset.php:39
+msgctxt "Module name"
+msgid "Page Header"
+msgstr "页眉"
+
+#: inc/legacy/import-export.php:86 inc/legacy/reset.php:35
+msgctxt "Module name"
+msgid "Hooks"
+msgstr "钩子"
+
+#: inc/legacy/import-export.php:79 inc/legacy/reset.php:31
+msgctxt "Module name"
+msgid "Blog"
+msgstr "博客"
+
+#: inc/legacy/import-export.php:72 inc/legacy/reset.php:27
+msgctxt "Module name"
+msgid "Backgrounds"
+msgstr "背景"
+
+#: inc/legacy/import-export.php:66 inc/legacy/reset.php:24
+msgctxt "Module name"
+msgid "Core"
+msgstr "核心"
+
+#: inc/legacy/import-export.php:62 inc/legacy/reset.php:22
+msgid "Advanced"
+msgstr "高级"
+
+#: gp-premium.php:278
+msgid "Configure"
+msgstr "配置"
+
+#: gp-premium.php:262
+msgid "Install now."
+msgstr "现在安装。"
+
+#: gp-premium.php:261
+msgid "GP Premium requires GeneratePress to be your active theme."
+msgstr "GP Premium 需要 GeneratePress 作为您的活动主题。"
+
+#: gp-premium.php:252
+msgid "Update now."
+msgstr "现在更新。"
+
+#: gp-premium.php:250
+msgid "GeneratePress has an update available."
+msgstr "GeneratePress 提供更新。"
+
+#: general/smooth-scroll.php:98
+msgid "Initiate smooth scroll on anchor links using the <code>smooth-scroll</code> class."
+msgstr "使用<code> smooth-scroll </code>类启动定位链接上的平滑滚动."
+
+#: general/smooth-scroll.php:97
+msgid "Smooth scroll"
+msgstr "平滑滚动"
+
+#: elements/class-post-type.php:178 elements/class-post-type.php:188
+msgid "Exclusions"
+msgstr "排除"
+
+#: elements/class-post-type.php:176 elements/class-post-type.php:186
+#: dist/block-elements.js:1
+msgid "Type"
+msgstr "类型"
+
+#: elements/class-post-type.php:89
+msgid "Remove background image"
+msgstr "移除背景图像"
+
+#: elements/class-post-type.php:88
+msgid "Set background image"
+msgstr "设为背景图片"
+
+#: elements/class-post-type.php:86
+msgid "Search Element"
+msgstr "搜索元素"
+
+#: elements/class-post-type.php:85
+msgid "Update Element"
+msgstr "更新元素"
+
+#: elements/class-post-type.php:84
+msgid "Edit Element"
+msgstr "编辑元素"
+
+#: elements/class-post-type.php:83
+msgid "New Element"
+msgstr "新元素"
+
+#: elements/class-post-type.php:81 elements/class-post-type.php:82
+msgid "Add New Element"
+msgstr "添加新元素"
+
+#: elements/class-post-type.php:80 dist/editor.js:1
+msgid "All Elements"
+msgstr "所有元素"
+
+#: elements/class-post-type.php:79 elements/class-post-type.php:422
+#: elements/class-post-type.php:423 elements/elements.php:93
+#: elements/elements.php:230 inc/class-dashboard.php:106
+msgid "Elements"
+msgstr "元素"
+
+#: elements/class-post-type.php:78
+msgctxt "Post Type Singular Name"
+msgid "Element"
+msgstr "元素"
+
+#: elements/class-post-type.php:77
+msgctxt "Post Type General Name"
+msgid "Elements"
+msgstr "元素"
+
+#: elements/class-metabox.php:2239
+msgid "Custom post meta. Replace \"name\" with the name of your custom field."
+msgstr "自定义帖子元数据, 将“name”替换为您的自定义字段的名称."
+
+#: elements/class-metabox.php:2234
+msgid "The terms attached to the chosen taxonomy (category, post_tag, product_cat)."
+msgstr "附加到所选分类的术语 (category, post_tag, product_cat)."
+
+#: elements/class-metabox.php:2229
+msgid "The author of the current post."
+msgstr "本文的作者。"
+
+#: elements/class-metabox.php:2224
+msgid "The published date of the current post."
+msgstr "当前帖子的发布日期。"
+
+#: elements/class-metabox.php:2219
+msgid "The content title of the current post/taxonomy."
+msgstr "当前帖子/分类的内容标题."
+
+#: elements/class-elements-helper.php:473
+msgid "WooCommerce - Account"
+msgstr "WooCommerce - 账户"
+
+#: elements/class-elements-helper.php:446
+msgid "WooCommerce - Checkout"
+msgstr "WooCommerce - 结帐"
+
+#: elements/class-elements-helper.php:424
+msgid "WooCommerce - Cart"
+msgstr "WooCommerce - 购物车"
+
+#: elements/class-elements-helper.php:403
+msgid "WooCommerce - Product"
+msgstr "WooCommerce - 产品"
+
+#: elements/class-elements-helper.php:392
+msgid "WooCommerce - Shop"
+msgstr "WooCommerce - 商店"
+
+#: elements/class-elements-helper.php:382
+msgid "WooCommerce - Global"
+msgstr "WooCommerce - 全球"
+
+#: elements/class-elements-helper.php:357
+#: spacing/functions/customizer/sidebar-spacing.php:17
+msgid "Sidebars"
+msgstr "侧边栏"
+
+#: elements/class-elements-helper.php:348
+msgid "Comments"
+msgstr "评论"
+
+#: elements/class-elements-helper.php:296
+msgid "Scripts/Styles"
+msgstr "脚本/样式"
+
+#: elements/class-metabox.php:1611
+msgid "Internal notes can be helpful to remember why this element was added."
+msgstr "内部注释有助于记住为什么添加此元素。"
+
+#: elements/class-metabox.php:1591
+msgid "Add User Rule"
+msgstr "添加用户规则"
+
+#: elements/class-metabox.php:1505
+msgid "Display this element for specific user roles."
+msgstr "显示特定用户角色的此元素。"
+
+#: elements/class-metabox.php:1504 elements/class-post-type.php:179
+#: elements/class-post-type.php:189
+msgid "Users"
+msgstr "用户"
+
+#: elements/class-metabox.php:1498
+msgid "Add Exclusion Rule"
+msgstr "添加排除规则"
+
+#: elements/class-metabox.php:1396
+msgid "Choose when this element should not display."
+msgstr "选择何时不显示此元素。"
+
+#: elements/class-metabox.php:1395
+msgid "Exclude"
+msgstr "排除"
+
+#: elements/class-metabox.php:1389
+msgid "Add Location Rule"
+msgstr "添加位置规则"
+
+#: elements/class-metabox.php:1291
+msgid "Choose when this element should display."
+msgstr "选择何时显示此元素。"
+
+#: elements/class-metabox.php:1248
+msgid "Content Area"
+msgstr "内容区域"
+
+#: elements/class-metabox.php:1160
+msgid "5 Widgets"
+msgstr "5 个小工具"
+
+#: elements/class-metabox.php:1153
+msgid "4 Widgets"
+msgstr "4 个小工具"
+
+#: elements/class-metabox.php:1146
+msgid "3 Widgets"
+msgstr "3 个小工具"
+
+#: elements/class-metabox.php:1139
+msgid "2 Widgets"
+msgstr "2 个小工具"
+
+#: elements/class-metabox.php:1132
+msgid "1 Widget"
+msgstr "1 个小部件"
+
+#: elements/class-metabox.php:1125
+msgid "0 Widgets"
+msgstr "0 个小工具"
+
+#: elements/class-metabox.php:1098
+msgid "Both Sidebars on Right"
+msgstr "两个边栏靠右"
+
+#: elements/class-metabox.php:1091
+msgid "Both Sidebars on Left"
+msgstr "两个边栏靠左"
+
+#: elements/class-metabox.php:1084
+msgid "Both Sidebars"
+msgstr "双边栏"
+
+#: elements/class-metabox.php:1079
+#: woocommerce/functions/customizer/customizer.php:232
+#: woocommerce/functions/customizer/customizer.php:719
+msgid "Content (no sidebars)"
+msgstr "内容（无边栏）"
+
+#: elements/class-metabox.php:1077
+msgid "No Sidebars"
+msgstr "无边栏"
+
+#: elements/class-metabox.php:1065 elements/class-metabox.php:1072
+#: elements/class-metabox.php:1086 elements/class-metabox.php:1093
+#: elements/class-metabox.php:1100
+msgctxt "Short name for meta box"
+msgid "Sidebar"
+msgstr "边栏"
+
+#: elements/class-metabox.php:1052
+#: woocommerce/functions/customizer/customizer.php:227
+#: woocommerce/functions/customizer/customizer.php:713
+msgid "Sidebar Layout"
+msgstr "边栏布局"
+
+#: elements/class-metabox.php:1037 menu-plus/fields/slideout-nav-colors.php:110
+#: secondary-nav/fields/secondary-navigation.php:99
+msgid "Navigation Text Current"
+msgstr "当前导航文字"
+
+#: elements/class-metabox.php:1028 menu-plus/fields/slideout-nav-colors.php:77
+#: secondary-nav/fields/secondary-navigation.php:66
+msgid "Navigation Background Current"
+msgstr "当前导航背景"
+
+#: elements/class-metabox.php:1019 menu-plus/fields/slideout-nav-colors.php:102
+#: secondary-nav/fields/secondary-navigation.php:91
+msgid "Navigation Text Hover"
+msgstr "导航文字悬停"
+
+#: elements/class-metabox.php:1010 menu-plus/fields/slideout-nav-colors.php:69
+#: secondary-nav/fields/secondary-navigation.php:58
+msgid "Navigation Background Hover"
+msgstr "导航背景悬停"
+
+#: elements/class-metabox.php:1001 menu-plus/fields/slideout-nav-colors.php:94
+#: secondary-nav/fields/secondary-navigation.php:83
+msgid "Navigation Text"
+msgstr "导航文字"
+
+#: elements/class-metabox.php:992 menu-plus/fields/slideout-nav-colors.php:61
+#: secondary-nav/fields/secondary-navigation.php:50
+msgid "Navigation Background"
+msgstr "导航背景"
+
+#: elements/class-metabox.php:983
+msgid "Navigation Colors"
+msgstr "导航颜色"
+
+#: elements/class-metabox.php:976 secondary-nav/functions/functions.php:339
+msgid "No Navigation"
+msgstr "无导航"
+
+#: elements/class-elements-helper.php:210 elements/class-metabox.php:975
+#: elements/class-metabox.php:1063 secondary-nav/functions/functions.php:338
+#: dist/block-elements.js:3
+msgid "Right Sidebar"
+msgstr "右侧边栏"
+
+#: elements/class-elements-helper.php:214 elements/class-metabox.php:974
+#: elements/class-metabox.php:1070 secondary-nav/functions/functions.php:337
+#: dist/block-elements.js:3
+msgid "Left Sidebar"
+msgstr "左侧边栏"
+
+#: elements/class-metabox.php:973 secondary-nav/functions/functions.php:336
+msgid "Float Left"
+msgstr "靠左浮动"
+
+#: elements/class-metabox.php:972 secondary-nav/functions/functions.php:335
+msgid "Float Right"
+msgstr "靠右浮动"
+
+#: elements/class-metabox.php:971 secondary-nav/functions/functions.php:334
+msgid "Above Header"
+msgstr "页眉上面"
+
+#: elements/class-metabox.php:970 secondary-nav/functions/functions.php:333
+msgid "Below Header"
+msgstr "页眉下面"
+
+#: elements/class-metabox.php:969 elements/class-metabox.php:1058
+#: elements/class-metabox.php:1118 elements/class-metabox.php:1254
+msgid "Default"
+msgstr "默认"
+
+#: elements/class-metabox.php:965 secondary-nav/functions/functions.php:330
+msgid "Navigation Location"
+msgstr "导航位置"
+
+#: elements/class-metabox.php:940
+msgid "Mobile Header Logo"
+msgstr "便携设备页眉 Logo"
+
+#: elements/class-metabox.php:914
+#: menu-plus/functions/generate-menu-plus.php:340
+msgid "Navigation Logo"
+msgstr "导航图标"
+
+#: elements/class-metabox.php:888 elements/class-metabox.php:902
+#: elements/class-metabox.php:928 elements/class-metabox.php:954
+msgid "Retina Logo"
+msgstr "视网膜 Logo"
+
+#: elements/class-metabox.php:876 elements/class-metabox.php:902
+#: elements/class-metabox.php:928 elements/class-metabox.php:954
+#: sections/functions/metaboxes/views/sections-template.php:252
+msgid "Upload"
+msgstr "上传"
+
+#: elements/class-metabox.php:862 elements/class-metabox.php:876
+msgid "Site Logo"
+msgstr "站点 Logo"
+
+#: elements/class-metabox.php:851 typography/functions/functions.php:580
+msgid "Site Tagline"
+msgstr "站点标语"
+
+#: elements/class-metabox.php:830
+msgid "Header Background"
+msgstr "页眉背景"
+
+#: elements/class-metabox.php:803
+msgid "Add to the top padding of your Page Hero to prevent overlapping."
+msgstr "添加到 Page Hero 的顶部填充以防止重叠。"
+
+#: elements/class-metabox.php:802
+msgid "Offset Site Header Height"
+msgstr "偏移站点页眉高度"
+
+#: elements/class-metabox.php:795
+msgid "Merge on Desktop Only"
+msgstr "仅在桌面上合并"
+
+#: elements/class-metabox.php:794
+msgid "Merge"
+msgstr "合并"
+
+#: elements/class-metabox.php:793
+msgid "No Merge"
+msgstr "没有合并"
+
+#: elements/class-metabox.php:789
+msgid "Place your site header on top of the element below it."
+msgstr "将站点标题放在其下方元素的顶部。"
+
+#: elements/class-metabox.php:788
+msgid "Merge with Content"
+msgstr "与内容合并"
+
+#: elements/class-metabox.php:774
+#: sections/functions/metaboxes/views/sections-template.php:239
+msgid "Link Color Hover"
+msgstr "链接悬停颜色"
+
+#: elements/class-metabox.php:765
+#: sections/functions/metaboxes/views/sections-template.php:233
+msgid "Link Color"
+msgstr "链接颜色"
+
+#: colors/functions/woocommerce-colors.php:389 elements/class-metabox.php:756
+#: sections/functions/metaboxes/views/sections-template.php:227
+#: woocommerce/fields/woocommerce-colors.php:243
+#: woocommerce/fields/woocommerce-colors.php:334
+msgid "Text Color"
+msgstr "文字颜色"
+
+#: colors/functions/woocommerce-colors.php:365 elements/class-metabox.php:747
+#: sections/functions/metaboxes/views/sections-template.php:222
+#: woocommerce/fields/woocommerce-colors.php:227
+#: woocommerce/fields/woocommerce-colors.php:318
+msgid "Background Color"
+msgstr "背景色"
+
+#: elements/class-metabox.php:738
+msgid "Use the background color as a background overlay."
+msgstr "使用背景色作为背景叠加。"
+
+#: elements/class-metabox.php:737
+msgid "Background Overlay"
+msgstr "背景叠加"
+
+#: elements/class-metabox.php:728
+msgid "Disable the featured image on posts with this hero area."
+msgstr "禁用此 HERO 区域的帖子上的特色图像。"
+
+#: elements/class-metabox.php:727
+msgid "Disable Featured Image"
+msgstr "禁用特色图片"
+
+#: elements/class-metabox.php:718
+msgid "Parallax"
+msgstr "视差"
+
+#: elements/class-metabox.php:699
+msgid "Background Position"
+msgstr "背景位置"
+
+#. translators: Upload Custom Image or Fallback image
+#: elements/class-metabox.php:688
+msgid "Upload %s"
+msgstr "上传 %s"
+
+#: elements/class-metabox.php:677 elements/class-metabox.php:877
+#: elements/class-metabox.php:903 elements/class-metabox.php:929
+#: elements/class-metabox.php:955 elements/class-metabox.php:1331
+#: elements/class-metabox.php:1359 elements/class-metabox.php:1386
+#: elements/class-metabox.php:1436 elements/class-metabox.php:1466
+#: elements/class-metabox.php:1495 elements/class-metabox.php:1537
+#: elements/class-metabox.php:1563 elements/class-metabox.php:1588
+#: sections/functions/metaboxes/views/sections-template.php:253
+msgid "Remove"
+msgstr "移除"
+
+#: elements/class-metabox.php:672
+msgid "Change"
+msgstr "更改"
+
+#: disable-elements/functions/functions.php:165
+#: disable-elements/functions/functions.php:167
+#: disable-elements/functions/functions.php:360
+#: disable-elements/functions/functions.php:362 elements/class-metabox.php:644
+#: elements/class-metabox.php:1217
+msgid "Featured Image"
+msgstr "特色图片"
+
+#: elements/class-metabox.php:643
+msgid "No Background Image"
+msgstr "没有背景图片"
+
+#: elements/class-metabox.php:639 elements/class-post-type.php:87
+#: sections/functions/metaboxes/views/sections-template.php:247
+#: sections/functions/metaboxes/views/sections-template.php:252
+msgid "Background Image"
+msgstr "背景图像"
+
+#: elements/class-metabox.php:519
+msgid "Padding"
+msgstr "内边距"
+
+#: elements/class-metabox.php:512 elements/class-metabox.php:564
+#: elements/class-metabox.php:618
+#: library/customizer/controls/class-spacing-control.php:42
+msgid "Bottom"
+msgstr "底部"
+
+#: elements/class-metabox.php:510 elements/class-metabox.php:538
+#: elements/class-metabox.php:592
+#: library/customizer/controls/class-spacing-control.php:40
+msgid "Top"
+msgstr "顶部"
+
+#: elements/class-metabox.php:506
+msgid "Vertical Alignment"
+msgstr "垂直对齐"
+
+#: elements/class-metabox.php:497
+msgid "Full Screen"
+msgstr "全屏"
+
+#: elements/class-metabox.php:484
+msgid "Horizontal Alignment"
+msgstr "水平对齐"
+
+#: elements/class-metabox.php:472
+msgid "Inner Container"
+msgstr "内部容器"
+
+#: elements/class-metabox.php:465 elements/class-metabox.php:476
+#: secondary-nav/functions/functions.php:259
+#: secondary-nav/functions/functions.php:284
+#: sections/functions/metaboxes/views/sections-template.php:177
+#: sections/functions/metaboxes/views/sections-template.php:185
+msgctxt "Width"
+msgid "Contained"
+msgstr "包含"
+
+#: elements/class-metabox.php:464 elements/class-metabox.php:477
+#: sections/functions/metaboxes/views/sections-template.php:176
+#: sections/functions/metaboxes/views/sections-template.php:186
+msgid "Full Width"
+msgstr "全宽"
+
+#: elements/class-metabox.php:451
+msgid "Add custom classes to the Page Hero element."
+msgstr "将自定义类添加到 Page Hero 元素。"
+
+#: elements/class-metabox.php:450
+msgid "Element Classes"
+msgstr "元素类"
+
+#: elements/class-metabox.php:431 dist/block-elements.js:3
+msgid "Priority"
+msgstr "优先级"
+
+#. translators: %s is DISALLOW_FILE_EDIT constant
+#: elements/class-metabox.php:415
+msgid "Unable to execute PHP as %s is defined."
+msgstr "由于定义了 %s，因此无法执行 PHP。"
+
+#: elements/class-metabox.php:408
+msgid "Execute PHP"
+msgstr "执行 PHP"
+
+#: elements/class-metabox.php:399
+msgid "Execute Shortcodes"
+msgstr "执行短代码"
+
+#: elements/class-metabox.php:390
+msgid "Disable Site Footer"
+msgstr "禁用站点页脚"
+
+#: elements/class-metabox.php:381
+msgid "Disable Site Header"
+msgstr "禁用站点页眉"
+
+#: elements/class-metabox.php:368
+msgid "Custom Hook Name"
+msgstr "自定义钩子名称"
+
+#: elements/class-metabox.php:360 dist/block-elements.js:3
+msgid "Custom Hook"
+msgstr "自定义钩子"
+
+#: elements/class-metabox.php:359 dist/block-elements.js:3
+msgid "Custom"
+msgstr "自定义"
+
+#: elements/class-metabox.php:324
+msgid "Internal Notes"
+msgstr "内部注释"
+
+#: elements/class-metabox.php:282 elements/class-metabox.php:317
+msgid "Display Rules"
+msgstr "显示规则"
+
+#: elements/class-metabox.php:460
+msgid "Container"
+msgstr "容器"
+
+#: elements/class-metabox.php:282
+#: sections/functions/metaboxes/metabox-functions.php:255
+msgid "Settings"
+msgstr "设置"
+
+#: elements/class-elements-helper.php:186 elements/class-metabox.php:269
+#: elements/class-metabox.php:1172 dist/block-elements.js:3
+msgid "Site Header"
+msgstr "站点页眉"
+
+#: elements/class-elements-helper.php:190 elements/class-metabox.php:275
+#: dist/block-elements.js:3
+msgid "Page Hero"
+msgstr "Page Hero"
+
+#: elements/class-metabox.php:256
+msgid "This element needs a location set within the Display Rules tab in order to display."
+msgstr "此元素需要在 \"显示规则\" 选项卡中设置一个位置才能显示。"
+
+#: elements/class-elements-helper.php:182 elements/class-metabox.php:250
+#: elements/class-post-type.php:365 elements/class-post-type.php:488
+#: library/customizer/controls/class-section-shortcuts-control.php:64
+#: sections/functions/metaboxes/views/sections-template.php:171
+msgid "Layout"
+msgstr "布局"
+
+#: elements/class-elements-helper.php:178 elements/class-metabox.php:249
+#: elements/class-metabox.php:336 elements/class-post-type.php:350
+#: elements/class-post-type.php:487 dist/block-elements.js:3
+msgid "Hook"
+msgstr "钩子"
+
+#: elements/class-metabox.php:170 elements/class-metabox.php:246
+#: elements/class-metabox.php:1310 elements/class-metabox.php:1339
+#: elements/class-metabox.php:1366 elements/class-metabox.php:1415
+#: elements/class-metabox.php:1444 elements/class-metabox.php:1473
+#: elements/class-metabox.php:1518 elements/class-metabox.php:1545
+#: elements/class-metabox.php:1570 elements/class-post-type.php:485
+msgid "Choose..."
+msgstr "选择..."
+
+#: elements/class-post-type.php:482
+msgid "Choose Element Type"
+msgstr "选择元素类型"
+
+#: elements/class-metabox.php:220
+msgid "Template Tags"
+msgstr "模板标签"
+
+#: elements/class-metabox.php:169 elements/class-metabox.php:656
+msgid "Fallback Image"
+msgstr "后备图像"
+
+#: elements/class-metabox.php:168 elements/class-metabox.php:645
+#: elements/class-metabox.php:654
+msgid "Custom Image"
+msgstr "自定义图片"
+
+#. translators: author name
+#: elements/class-hero.php:969
+msgid "View all posts by %s"
+msgstr "查看%s发表的所有文章"
+
+#: elements/class-conditions.php:153
+msgid "Roles"
+msgstr "角色"
+
+#: elements/class-conditions.php:149
+msgid "Logged Out"
+msgstr "登出"
+
+#: elements/class-conditions.php:148
+msgid "Logged In"
+msgstr "登录"
+
+#: elements/class-conditions.php:147
+msgid "All Users"
+msgstr "所有用户"
+
+#. translators: '%1$s is post type label. %2$s is taxonomy label.
+#: elements/class-conditions.php:123
+msgctxt "%1$s is post type label. %2$s is taxonomy label."
+msgid "%1$s %2$s Archive"
+msgstr "%1$s %2$s 档案"
+
+#. translators: post type name
+#: elements/class-conditions.php:94
+msgctxt "%s is a singular post type name"
+msgid "%s Archive"
+msgstr "%s 档案"
+
+#. translators: post type name
+#: elements/class-conditions.php:91
+msgctxt "%s is a singular post type name"
+msgid "%s Archives"
+msgstr "%s 档案"
+
+#: elements/class-conditions.php:55
+msgid "404 Template"
+msgstr "404 模板"
+
+#: elements/class-conditions.php:53
+msgid "Search Results"
+msgstr "搜索结果"
+
+#: elements/class-conditions.php:52
+msgid "Date Archives"
+msgstr "日期归档"
+
+#: elements/class-conditions.php:51
+msgid "Author Archives"
+msgstr "作者档案"
+
+#: elements/class-conditions.php:50
+msgid "All Archives"
+msgstr "所有归档"
+
+#: elements/class-conditions.php:49
+msgid "All Singular"
+msgstr "所有单品"
+
+#: elements/class-conditions.php:47
+msgid "Front Page"
+msgstr "首页"
+
+#: elements/class-conditions.php:46
+msgid "Entire Site"
+msgstr "整个站点"
+
+#: elements/class-conditions.php:44 elements/class-conditions.php:145
+#: woocommerce/functions/customizer/customizer.php:88
+msgid "General"
+msgstr "常规"
+
+#: disable-elements/functions/functions.php:110 elements/class-metabox.php:302
+#: inc/class-dashboard.php:100
+msgid "Disable Elements"
+msgstr "禁用元素"
+
+#: copyright/functions/functions.php:43 inc/class-dashboard.php:92
+msgid "Copyright"
+msgstr "版权"
+
+#: colors/functions/woocommerce-colors.php:903
+#: woocommerce/fields/woocommerce-colors.php:575
+msgid "Error Message Text"
+msgstr "错误消息文本"
+
+#: colors/functions/woocommerce-colors.php:879
+#: woocommerce/fields/woocommerce-colors.php:559
+msgid "Error Message Background"
+msgstr "错误消息背景"
+
+#: colors/functions/woocommerce-colors.php:856
+#: woocommerce/fields/woocommerce-colors.php:543
+msgid "Info Message Text"
+msgstr "信息消息文本"
+
+#: colors/functions/woocommerce-colors.php:832
+#: woocommerce/fields/woocommerce-colors.php:527
+msgid "Info Message Background"
+msgstr "信息消息背景"
+
+#: colors/functions/woocommerce-colors.php:809
+#: woocommerce/fields/woocommerce-colors.php:511
+msgid "Success Message Text"
+msgstr "成功消息文本"
+
+#: colors/functions/woocommerce-colors.php:785
+#: woocommerce/fields/woocommerce-colors.php:495
+msgid "Success Message Background"
+msgstr "成功消息背景"
+
+#: colors/functions/woocommerce-colors.php:749
+#: woocommerce/fields/woocommerce-colors.php:468
+msgid "Product Tab Active"
+msgstr "产品标签激活"
+
+#: colors/functions/woocommerce-colors.php:726
+#: woocommerce/fields/woocommerce-colors.php:452
+msgid "Product Tab Text"
+msgstr "产品标签文本"
+
+#: colors/functions/woocommerce-colors.php:329
+#: woocommerce/fields/woocommerce-colors.php:200
+msgid "Price"
+msgstr "价格"
+
+#: colors/functions/woocommerce-colors.php:306
+#: woocommerce/fields/woocommerce-colors.php:184
+msgid "Sale Sticker Text"
+msgstr "销售贴纸文本"
+
+#: colors/functions/woocommerce-colors.php:282
+#: woocommerce/fields/woocommerce-colors.php:168
+msgid "Sale Sticker Background"
+msgstr "销售贴纸背景"
+
+#: colors/functions/woocommerce-colors.php:258
+#: woocommerce/fields/woocommerce-colors.php:152
+msgid "Star Ratings"
+msgstr "星级评分"
+
+#: colors/functions/woocommerce-colors.php:176
+#: woocommerce/fields/woocommerce-colors.php:101
+msgid "Alt Button Text Hover"
+msgstr "Alt 按钮文本悬停"
+
+#: colors/functions/woocommerce-colors.php:153
+#: woocommerce/fields/woocommerce-colors.php:93
+msgid "Alt Button Text"
+msgstr "Alt 按钮文本"
+
+#: colors/functions/woocommerce-colors.php:129
+#: woocommerce/fields/woocommerce-colors.php:77
+msgid "Alt Button Background Hover"
+msgstr "Alt 按钮背景悬停"
+
+#: colors/functions/woocommerce-colors.php:105
+#: woocommerce/fields/woocommerce-colors.php:69
+msgid "Alt Button Background"
+msgstr "Alt 按钮背景"
+
+#: colors/functions/woocommerce-colors.php:235
+#: woocommerce/fields/woocommerce-colors.php:136
+msgid "Product Title Hover"
+msgstr "产品标题悬停"
+
+#: colors/functions/woocommerce-colors.php:212
+#: woocommerce/fields/woocommerce-colors.php:128
+msgid "Product Title"
+msgstr "产品名称"
+
+#: colors/functions/functions.php:1361
+msgid "Back to Top Button"
+msgstr "回到顶部按钮"
+
+#: colors/functions/functions.php:1135
+msgid "Form Text Focus"
+msgstr "形式文本焦点"
+
+#: colors/functions/functions.php:1129
+msgid "Form Text"
+msgstr "表格文本"
+
+#: colors/functions/functions.php:1115
+msgid "Form Border Focus"
+msgstr "形式边框焦点"
+
+#: colors/functions/functions.php:1091
+msgid "Form Border"
+msgstr "表格边框"
+
+#: colors/functions/functions.php:1067
+msgid "Form Background Focus"
+msgstr "形成背景焦点"
+
+#: colors/functions/functions.php:1043
+msgid "Form Background"
+msgstr "表格背景"
+
+#: colors/functions/functions.php:1022
+msgid "Forms"
+msgstr "表单"
+
+#: colors/functions/functions.php:1199 elements/class-metabox.php:1112
+msgid "Footer Widgets"
+msgstr "页脚小工具"
+
+#: colors/functions/functions.php:989 colors/functions/functions.php:1248
+msgid "Widget Title"
+msgstr "小工具标题"
+
+#: colors/functions/functions.php:884
+msgid "Heading 5 (H5) Color"
+msgstr "标题 5 (H5) 颜色"
+
+#: colors/functions/functions.php:875
+msgid "Heading 4 (H4) Color"
+msgstr "标题 4 (H4) 颜色"
+
+#: colors/functions/functions.php:867
+msgid "Heading 3 (H3) Color"
+msgstr "标题 3 (H3) 颜色"
+
+#: colors/functions/functions.php:861
+msgid "Heading 2 (H2) Color"
+msgstr "标题 2 (H2) 颜色"
+
+#: colors/functions/functions.php:855
+msgid "Heading 1 (H1) Color"
+msgstr "标题 1 (H1) 颜色"
+
+#: colors/functions/functions.php:849
+msgid "Entry Meta Links Hover"
+msgstr "条目 Meta 链接悬停"
+
+#: colors/functions/functions.php:843
+msgid "Entry Meta Links"
+msgstr "条目 Meta 链接"
+
+#: colors/functions/functions.php:837
+msgid "Entry Meta Text"
+msgstr "条目 Meta 文字"
+
+#: colors/functions/functions.php:819
+#: disable-elements/functions/functions.php:170
+#: disable-elements/functions/functions.php:172
+#: disable-elements/functions/functions.php:365
+#: disable-elements/functions/functions.php:367 elements/class-metabox.php:1226
+msgid "Content Title"
+msgstr "内容标题"
+
+#: colors/functions/functions.php:632
+#: colors/functions/woocommerce-colors.php:70
+#: typography/functions/functions.php:793
+#: woocommerce/fields/woocommerce-colors.php:55
+msgid "Buttons"
+msgstr "按钮"
+
+#: colors/functions/functions.php:441
+#: colors/functions/secondary-nav-colors.php:250
+#: colors/functions/slideout-nav-colors.php:248
+msgid "Sub-Menu Items"
+msgstr "子菜单项"
+
+#: colors/functions/functions.php:405 colors/functions/functions.php:537
+#: colors/functions/secondary-nav-colors.php:236
+#: colors/functions/secondary-nav-colors.php:396
+#: colors/functions/slideout-nav-colors.php:234
+#: colors/functions/slideout-nav-colors.php:394
+msgid "Text Current"
+msgstr "文本当前"
+
+#: colors/functions/functions.php:399 colors/functions/functions.php:531
+#: colors/functions/functions.php:737 colors/functions/functions.php:1450
+#: colors/functions/secondary-nav-colors.php:187
+#: colors/functions/secondary-nav-colors.php:347
+#: colors/functions/slideout-nav-colors.php:185
+#: colors/functions/slideout-nav-colors.php:345
+msgid "Text Hover"
+msgstr "文字悬停"
+
+#: colors/functions/functions.php:379 colors/functions/functions.php:511
+#: colors/functions/secondary-nav-colors.php:211
+#: colors/functions/secondary-nav-colors.php:371
+#: colors/functions/slideout-nav-colors.php:209
+#: colors/functions/slideout-nav-colors.php:369
+msgid "Background Current"
+msgstr "背景当前"
+
+#: colors/functions/functions.php:355 colors/functions/functions.php:487
+#: colors/functions/functions.php:714 colors/functions/functions.php:1427
+#: colors/functions/secondary-nav-colors.php:162
+#: colors/functions/secondary-nav-colors.php:322
+#: colors/functions/slideout-nav-colors.php:160
+#: colors/functions/slideout-nav-colors.php:320
+msgid "Background Hover"
+msgstr "背景悬停"
+
+#: colors/functions/functions.php:309
+#: colors/functions/secondary-nav-colors.php:90
+msgid "Parent Items"
+msgstr "上级菜单项"
+
+#: colors/functions/functions.php:244
+msgid "Tagline"
+msgstr "副标题"
+
+#: colors/functions/functions.php:238 elements/class-metabox.php:840
+#: menu-plus/functions/generate-menu-plus.php:474
+#: typography/functions/functions.php:446
+msgid "Site Title"
+msgstr "站点标题"
+
+#: colors/functions/functions.php:130 colors/functions/functions.php:232
+#: colors/functions/functions.php:813 colors/functions/functions.php:983
+#: colors/functions/functions.php:1243 colors/functions/functions.php:1326
+msgid "Link Hover"
+msgstr "链接悬停"
+
+#: colors/functions/functions.php:124 colors/functions/functions.php:226
+#: colors/functions/functions.php:807 colors/functions/functions.php:977
+#: colors/functions/functions.php:1238 colors/functions/functions.php:1321
+msgid "Link"
+msgstr "链接"
+
+#: colors/functions/functions.php:118 colors/functions/functions.php:220
+#: colors/functions/functions.php:393 colors/functions/functions.php:525
+#: colors/functions/functions.php:620 colors/functions/functions.php:692
+#: colors/functions/functions.php:801 colors/functions/functions.php:971
+#: colors/functions/functions.php:1233 colors/functions/functions.php:1316
+#: colors/functions/functions.php:1405
+#: colors/functions/secondary-nav-colors.php:138
+#: colors/functions/secondary-nav-colors.php:298
+#: colors/functions/slideout-nav-colors.php:136
+#: colors/functions/slideout-nav-colors.php:296
+msgid "Text"
+msgstr "文字"
+
+#: colors/functions/functions.php:102 colors/functions/functions.php:205
+#: colors/functions/functions.php:331 colors/functions/functions.php:463
+#: colors/functions/functions.php:596 colors/functions/functions.php:669
+#: colors/functions/functions.php:787 colors/functions/functions.php:957
+#: colors/functions/functions.php:1220 colors/functions/functions.php:1303
+#: colors/functions/functions.php:1382
+#: colors/functions/secondary-nav-colors.php:113
+#: colors/functions/secondary-nav-colors.php:273
+#: colors/functions/slideout-nav-colors.php:111
+#: colors/functions/slideout-nav-colors.php:271
+#: sections/functions/metaboxes/views/sections-template.php:246
+msgid "Background"
+msgstr "背景"
+
+#: colors/functions/functions.php:54 inc/class-dashboard.php:87
+#: library/customizer-helpers.php:247
+#: library/customizer/controls/class-section-shortcuts-control.php:29
+#: sections/functions/metaboxes/views/sections-template.php:221
+#: woocommerce/fields/woocommerce-colors.php:45
+msgid "Colors"
+msgstr "颜色"
+
+#: blog/functions/defaults.php:17
+msgid "Loading..."
+msgstr "载入中…"
+
+#: blog/functions/defaults.php:16
+msgid "+ More"
+msgstr "+ 更多"
+
+#: blog/functions/defaults.php:13
+msgid "Read more"
+msgstr "阅读更多"
+
+#: blog/functions/customizer.php:1101
+msgid "Display posts in masonry grid"
+msgstr "在砌体网格中显示文章"
+
+#: blog/functions/customizer.php:1080
+msgid "Make first post featured"
+msgstr "制造精选首页"
+
+#: blog/functions/customizer.php:1033
+msgid "Display posts in columns"
+msgstr "在列中显示文章"
+
+#: blog/functions/customizer.php:1013 blog/functions/customizer.php:1053
+msgid "Columns"
+msgstr "列"
+
+#: blog/functions/customizer.php:719 blog/functions/customizer.php:894
+msgid "Above Content Area"
+msgstr "内容区域以上"
+
+#: blog/functions/customizer.php:633 blog/functions/customizer.php:808
+#: blog/functions/customizer.php:983
+msgid "Height"
+msgstr "高"
+
+#: blog/functions/customizer.php:612 blog/functions/customizer.php:787
+#: blog/functions/customizer.php:962
+msgid "Width"
+msgstr "宽"
+
+#: blog/functions/customizer.php:570 blog/functions/customizer.php:745
+#: blog/functions/customizer.php:920 elements/class-metabox.php:490
+#: elements/class-metabox.php:551 elements/class-metabox.php:605
+#: library/customizer/controls/class-spacing-control.php:41
+#: menu-plus/functions/generate-menu-plus.php:659
+#: secondary-nav/functions/functions.php:310
+#: secondary-nav/functions/functions.php:362
+#: woocommerce/functions/customizer/customizer.php:391
+#: woocommerce/functions/customizer/customizer.php:434 dist/block-elements.js:1
+msgid "Right"
+msgstr "靠右"
+
+#: blog/functions/customizer.php:569 blog/functions/customizer.php:744
+#: blog/functions/customizer.php:919 elements/class-metabox.php:488
+#: elements/class-metabox.php:577 elements/class-metabox.php:631
+#: library/customizer/controls/class-spacing-control.php:43
+#: menu-plus/functions/generate-menu-plus.php:658
+#: secondary-nav/functions/functions.php:308
+#: secondary-nav/functions/functions.php:363
+#: woocommerce/functions/customizer/customizer.php:389
+#: woocommerce/functions/customizer/customizer.php:432 dist/block-elements.js:1
+msgid "Left"
+msgstr "靠左"
+
+#: blog/functions/customizer.php:568 blog/functions/customizer.php:743
+#: blog/functions/customizer.php:918 elements/class-metabox.php:489
+#: elements/class-metabox.php:511 secondary-nav/functions/functions.php:309
+#: woocommerce/functions/customizer/customizer.php:390
+#: woocommerce/functions/customizer/customizer.php:433 dist/block-elements.js:1
+msgid "Center"
+msgstr "居中"
+
+#: blog/functions/customizer.php:565 blog/functions/customizer.php:740
+#: blog/functions/customizer.php:915
+msgid "Alignment"
+msgstr "对齐"
+
+#: blog/functions/customizer.php:544 blog/functions/customizer.php:718
+#: blog/functions/customizer.php:893
+msgid "Above Title"
+msgstr "标题上方"
+
+#: blog/functions/customizer.php:543 blog/functions/customizer.php:717
+#: blog/functions/customizer.php:892
+msgid "Below Title"
+msgstr "标题下方"
+
+#: blog/functions/customizer.php:540 blog/functions/customizer.php:714
+#: blog/functions/customizer.php:889 elements/class-metabox.php:1290
+#: elements/class-post-type.php:177 elements/class-post-type.php:187
+#: dist/block-elements.js:3
+msgid "Location"
+msgstr "位置"
+
+#: blog/functions/customizer.php:519 blog/functions/customizer.php:693
+#: blog/functions/customizer.php:868
+msgid "Display padding around images"
+msgstr "显示图像周围的填充"
+
+#: blog/functions/customizer.php:499 blog/functions/customizer.php:673
+#: blog/functions/customizer.php:848
+msgid "Display featured images"
+msgstr "显示精选图片"
+
+#: blog/functions/customizer.php:478
+msgid "Pages"
+msgstr "页面"
+
+#: blog/functions/customizer.php:477
+msgid "Posts"
+msgstr "文章"
+
+#: blog/functions/customizer.php:463
+msgid "Featured Images"
+msgstr "特色图片"
+
+#: blog/functions/customizer.php:450
+msgid "Display post navigation"
+msgstr "显示文章导航"
+
+#: blog/functions/customizer.php:354
+msgid "Loading label"
+msgstr "加载标签"
+
+#: blog/functions/customizer.php:335
+msgid "Load more label"
+msgstr "加载更多标签"
+
+#: blog/functions/customizer.php:316
+msgid "Use button to load more posts"
+msgstr "使用按钮来加载更多的文章"
+
+#: blog/functions/customizer.php:296
+msgid "Use infinite scroll"
+msgstr "使用无限滚动"
+
+#: blog/functions/customizer.php:276
+msgid "Display comment count"
+msgstr "显示评论数量"
+
+#: blog/functions/customizer.php:256 blog/functions/customizer.php:431
+msgid "Display post tags"
+msgstr "显示文章标签"
+
+#: blog/functions/customizer.php:236 blog/functions/customizer.php:412
+msgid "Display post categories"
+msgstr "显示文章分类"
+
+#: blog/functions/customizer.php:216 blog/functions/customizer.php:393
+msgid "Display post author"
+msgstr "显示文章作者"
+
+#: blog/functions/customizer.php:196 blog/functions/customizer.php:374
+msgid "Display post date"
+msgstr "显示发布日期"
+
+#: blog/functions/customizer.php:176
+msgid "Display read more as button"
+msgstr "显示更多按钮"
+
+#: blog/functions/customizer.php:156
+msgid "Read more label"
+msgstr "阅读更多标签"
+
+#: blog/functions/customizer.php:136
+msgid "Excerpt word count"
+msgstr "摘要字数"
+
+#: blog/functions/customizer.php:117
+msgid "Excerpt"
+msgstr "摘要"
+
+#: blog/functions/customizer.php:116
+msgid "Full Content"
+msgstr "全部内容"
+
+#: blog/functions/customizer.php:113
+msgid "Content type"
+msgstr "内容类型"
+
+#: blog/functions/customizer.php:101
+msgid "Single"
+msgstr "单个"
+
+#: blog/functions/customizer.php:100 blog/functions/customizer.php:476
+msgid "Archives"
+msgstr "归档"
+
+#: blog/functions/customizer.php:34 blog/functions/customizer.php:69
+#: elements/class-block-elements.php:764 elements/class-conditions.php:48
+#: elements/class-hero.php:939 inc/class-dashboard.php:79
+msgid "Blog"
+msgstr "博客"
+
+#: backgrounds/functions/secondary-nav-backgrounds.php:268
+msgid "Secondary Sub-Navigation"
+msgstr "副子导航"
+
+#: backgrounds/functions/secondary-nav-backgrounds.php:47
+#: backgrounds/functions/secondary-nav-backgrounds.php:61
+#: colors/functions/secondary-nav-colors.php:58
+#: colors/functions/secondary-nav-colors.php:71
+#: disable-elements/functions/functions.php:159
+#: disable-elements/functions/functions.php:161
+#: disable-elements/functions/functions.php:354
+#: disable-elements/functions/functions.php:356 elements/class-metabox.php:1208
+#: secondary-nav/fields/secondary-navigation.php:35
+#: secondary-nav/functions/functions.php:188
+#: secondary-nav/functions/functions.php:197
+#: secondary-nav/functions/functions.php:210
+#: typography/functions/secondary-nav-fonts.php:48
+#: typography/functions/secondary-nav-fonts.php:62 dist/customizer.js:1
+msgid "Secondary Navigation"
+msgstr "副导航"
+
+#: backgrounds/functions/functions.php:1145
+msgid "Footer Area"
+msgstr "页脚区域"
+
+#: backgrounds/functions/functions.php:1070
+msgid "Footer Widget Area"
+msgstr "页脚小工具区域"
+
+#: backgrounds/functions/functions.php:1028
+#: backgrounds/functions/functions.php:1041 colors/functions/functions.php:1168
+#: colors/functions/functions.php:1180
+#: disable-elements/functions/functions.php:175
+#: disable-elements/functions/functions.php:177
+#: disable-elements/functions/functions.php:370
+#: disable-elements/functions/functions.php:372
+#: elements/class-elements-helper.php:366 elements/class-metabox.php:295
+#: elements/class-metabox.php:1235 library/customizer-helpers.php:229
+#: spacing/functions/customizer/footer-spacing.php:17
+#: typography/functions/functions.php:2382
+#: typography/functions/functions.php:2396
+msgid "Footer"
+msgstr "页脚"
+
+#: backgrounds/functions/functions.php:967 colors/functions/functions.php:918
+msgid "Sidebar Widgets"
+msgstr "边栏小工具"
+
+#: backgrounds/functions/functions.php:925
+#: backgrounds/functions/functions.php:938 colors/functions/functions.php:930
+#: elements/class-metabox.php:289 library/customizer-helpers.php:211
+msgid "Sidebar"
+msgstr "边栏"
+
+#: backgrounds/functions/functions.php:820
+#: backgrounds/functions/functions.php:833
+#: backgrounds/functions/functions.php:864 blog/functions/customizer.php:86
+#: colors/functions/functions.php:748 colors/functions/functions.php:760
+#: elements/class-elements-helper.php:329 elements/class-metabox.php:309
+#: elements/class-metabox.php:1065 elements/class-metabox.php:1072
+#: elements/class-metabox.php:1086 elements/class-metabox.php:1093
+#: elements/class-metabox.php:1100 library/customizer-helpers.php:193
+#: sections/functions/metaboxes/metabox-functions.php:253
+#: sections/functions/metaboxes/metabox-functions.php:256
+#: spacing/functions/customizer/content-spacing.php:16
+#: typography/functions/functions.php:931
+msgid "Content"
+msgstr "内容"
+
+#: backgrounds/functions/functions.php:787
+#: backgrounds/functions/secondary-nav-backgrounds.php:390
+msgid "Sub-Navigation Item Current"
+msgstr "子导航项流动"
+
+#: backgrounds/functions/functions.php:736
+#: backgrounds/functions/secondary-nav-backgrounds.php:342
+msgid "Sub-Navigation Item Hover"
+msgstr "划过子导航项"
+
+#: backgrounds/functions/functions.php:685
+#: backgrounds/functions/secondary-nav-backgrounds.php:294
+msgid "Sub-Navigation Item"
+msgstr "子导航项"
+
+#: backgrounds/functions/functions.php:657
+msgid "Primary Sub-Navigation"
+msgstr "主子导航"
+
+#: backgrounds/functions/functions.php:624
+#: backgrounds/functions/secondary-nav-backgrounds.php:235
+msgid "Navigation Item Current"
+msgstr "导航项流动"
+
+#: backgrounds/functions/functions.php:573
+#: backgrounds/functions/secondary-nav-backgrounds.php:187
+msgid "Navigation Item Hover"
+msgstr "划过导航项"
+
+#: backgrounds/functions/functions.php:522
+#: backgrounds/functions/secondary-nav-backgrounds.php:139
+msgid "Navigation Item"
+msgstr "导航项"
+
+#: backgrounds/functions/functions.php:494
+#: backgrounds/functions/functions.php:545
+#: backgrounds/functions/functions.php:596
+#: backgrounds/functions/functions.php:647
+#: backgrounds/functions/functions.php:708
+#: backgrounds/functions/functions.php:759
+#: backgrounds/functions/functions.php:810
+#: backgrounds/functions/secondary-nav-backgrounds.php:114
+#: backgrounds/functions/secondary-nav-backgrounds.php:162
+#: backgrounds/functions/secondary-nav-backgrounds.php:210
+#: backgrounds/functions/secondary-nav-backgrounds.php:258
+#: backgrounds/functions/secondary-nav-backgrounds.php:317
+#: backgrounds/functions/secondary-nav-backgrounds.php:365
+#: backgrounds/functions/secondary-nav-backgrounds.php:413
+#: library/customizer/controls/class-backgrounds-control.php:124
+msgid "No Repeat"
+msgstr "无铺满"
+
+#: backgrounds/functions/functions.php:493
+#: backgrounds/functions/functions.php:544
+#: backgrounds/functions/functions.php:595
+#: backgrounds/functions/functions.php:646
+#: backgrounds/functions/functions.php:707
+#: backgrounds/functions/functions.php:758
+#: backgrounds/functions/functions.php:809
+#: backgrounds/functions/secondary-nav-backgrounds.php:113
+#: backgrounds/functions/secondary-nav-backgrounds.php:161
+#: backgrounds/functions/secondary-nav-backgrounds.php:209
+#: backgrounds/functions/secondary-nav-backgrounds.php:257
+#: backgrounds/functions/secondary-nav-backgrounds.php:316
+#: backgrounds/functions/secondary-nav-backgrounds.php:364
+#: backgrounds/functions/secondary-nav-backgrounds.php:412
+#: library/customizer/controls/class-backgrounds-control.php:123
+msgid "Repeat y"
+msgstr "纵向铺满"
+
+#: backgrounds/functions/functions.php:492
+#: backgrounds/functions/functions.php:543
+#: backgrounds/functions/functions.php:594
+#: backgrounds/functions/functions.php:645
+#: backgrounds/functions/functions.php:706
+#: backgrounds/functions/functions.php:757
+#: backgrounds/functions/functions.php:808
+#: backgrounds/functions/secondary-nav-backgrounds.php:112
+#: backgrounds/functions/secondary-nav-backgrounds.php:160
+#: backgrounds/functions/secondary-nav-backgrounds.php:208
+#: backgrounds/functions/secondary-nav-backgrounds.php:256
+#: backgrounds/functions/secondary-nav-backgrounds.php:315
+#: backgrounds/functions/secondary-nav-backgrounds.php:363
+#: backgrounds/functions/secondary-nav-backgrounds.php:411
+#: library/customizer/controls/class-backgrounds-control.php:122
+msgid "Repeat x"
+msgstr "横向铺满"
+
+#: backgrounds/functions/functions.php:491
+#: backgrounds/functions/functions.php:542
+#: backgrounds/functions/functions.php:593
+#: backgrounds/functions/functions.php:644
+#: backgrounds/functions/functions.php:705
+#: backgrounds/functions/functions.php:756
+#: backgrounds/functions/functions.php:807
+#: backgrounds/functions/secondary-nav-backgrounds.php:111
+#: backgrounds/functions/secondary-nav-backgrounds.php:159
+#: backgrounds/functions/secondary-nav-backgrounds.php:207
+#: backgrounds/functions/secondary-nav-backgrounds.php:255
+#: backgrounds/functions/secondary-nav-backgrounds.php:314
+#: backgrounds/functions/secondary-nav-backgrounds.php:362
+#: backgrounds/functions/secondary-nav-backgrounds.php:410
+#: library/customizer/controls/class-backgrounds-control.php:121
+msgid "Repeat"
+msgstr "重复"
+
+#: backgrounds/functions/functions.php:471
+#: backgrounds/functions/secondary-nav-backgrounds.php:91
+#: elements/class-elements-helper.php:316
+msgid "Navigation"
+msgstr "导航"
+
+#: backgrounds/functions/functions.php:425
+#: backgrounds/functions/functions.php:438 colors/functions/functions.php:278
+#: colors/functions/functions.php:290
+#: disable-elements/functions/functions.php:153
+#: disable-elements/functions/functions.php:155
+#: disable-elements/functions/functions.php:348
+#: disable-elements/functions/functions.php:350 elements/class-metabox.php:1199
+#: library/customizer-helpers.php:171
+#: spacing/functions/customizer/navigation-spacing.php:16
+#: typography/functions/functions.php:631
+#: typography/functions/functions.php:645
+msgid "Primary Navigation"
+msgstr "主导航"
+
+#: backgrounds/functions/functions.php:322
+#: backgrounds/functions/functions.php:335
+#: backgrounds/functions/functions.php:364 colors/functions/functions.php:166
+#: colors/functions/functions.php:178
+#: disable-elements/functions/functions.php:148
+#: disable-elements/functions/functions.php:150
+#: disable-elements/functions/functions.php:325
+#: disable-elements/functions/functions.php:327
+#: elements/class-elements-helper.php:174
+#: elements/class-elements-helper.php:304 elements/class-metabox.php:248
+#: elements/class-post-type.php:346 elements/class-post-type.php:489
+#: library/customizer-helpers.php:153
+#: spacing/functions/customizer/header-spacing.php:16
+#: typography/functions/functions.php:370
+#: typography/functions/functions.php:384
+msgid "Header"
+msgstr "页眉"
+
+#: backgrounds/functions/functions.php:233
+#: backgrounds/functions/functions.php:258 colors/functions/functions.php:81
+#: disable-elements/functions/functions.php:142
+#: disable-elements/functions/functions.php:144
+#: disable-elements/functions/functions.php:319
+#: disable-elements/functions/functions.php:321 elements/class-metabox.php:1190
+#: typography/functions/functions.php:256
+msgid "Top Bar"
+msgstr "顶栏"
+
+#: backgrounds/functions/functions.php:125
+#: backgrounds/functions/functions.php:138
+#: backgrounds/functions/functions.php:169 colors/functions/functions.php:66
+#: typography/functions/functions.php:63 typography/functions/functions.php:77
+msgid "Body"
+msgstr "主体"
+
+#: backgrounds/functions/functions.php:106
+#: backgrounds/functions/functions.php:116
+msgid "Background Images"
+msgstr "背景图像"
