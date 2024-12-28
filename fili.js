@@ -1,4 +1,3 @@
-        // 鱼的类定义，用于表示单条鱼的属性和行为
         function Fish() {
             this.x = 0; // 鱼的初始x坐标
             this.y = 0; // 鱼的初始y坐标
@@ -34,7 +33,7 @@
                 ctx.bezierCurveTo(this.x + this.size / 2, this.y - this.size / 2,
                     this.x + this.size, this.y + this.size / 2, this.x + this.size / 2, this.y + this.size);
                 ctx.closePath();
-                ctx.fillStyle ='steelblue'; // 设置鱼的颜色，可调整
+                ctx.fillStyle = 'black'; // 将鱼的颜色设置为黑色
                 ctx.fill();
             };
         }
@@ -54,7 +53,7 @@
                 ctx.beginPath();
                 ctx.arc(this.x, this.y, 2, 0, 2 * Math.PI);
                 ctx.closePath();
-                ctx.fillStyle = 'lightblue'; // 设置水的颜色，可调整
+                ctx.fillStyle = 'white'; // 将水的颜色设置为白色
                 ctx.fill();
             };
         }
@@ -106,7 +105,7 @@
                 }
                 this.ctx.lineTo(this.width, this.height / 2);
                 this.ctx.closePath();
-                this.ctx.fillStyle = 'lightblue';
+                this.ctx.fillStyle = 'white';
                 this.ctx.fill();
             };
             this.animate = function () {
