@@ -1,335 +1,122 @@
-//底部跳动的鱼
-var RENDERER = {
-	POINT_INTERVAL : 5,
-	FISH_COUNT : 3,
-	MAX_INTERVAL_COUNT : 50,
-	INIT_HEIGHT_RATE : 0.5,
-	THRESHOLD : 50,
-	
-	init : function(){
-		this.setParameters();
-		this.reconstructMethods();
-		this.setup();
-		this.bindEvent();
-		this.render();
-	},
-	setParameters : function(){
-		this.$window = $(window);
-		this.$container = $('#jsi-flying-fish-container');
-		this.$canvas = $('<canvas />');
-		this.context = this.$canvas.appendTo(this.$container).get(0).getContext('2d');
-		this.points = [];
-		this.fishes = [];
-		this.watchIds = [];
-	},
-	createSurfacePoints : function(){
-		var count = Math.round(this.width / this.POINT_INTERVAL);
-		this.pointInterval = this.width / (count - 1);
-		this.points.push(new SURFACE_POINT(this, 0));
-		
-		for(var i = 1; i < count; i++){
-			var point = new SURFACE_POINT(this, i * this.pointInterval),
-				previous = this.points[i - 1];
-				
-			point.setPreviousPoint(previous);
-			previous.setNextPoint(point);
-			this.points.push(point);
-		}
-	},
-	reconstructMethods : function(){
-		this.watchWindowSize = this.watchWindowSize.bind(this);
-		this.jdugeToStopResize = this.jdugeToStopResize.bind(this);
-		this.startEpicenter = this.startEpicenter.bind(this);
-		this.moveEpicenter = this.moveEpicenter.bind(this);
-		this.reverseVertical = this.reverseVertical.bind(this);
-		this.render = this.render.bind(this);
-	},
-	setup : function(){
-		this.points.length = 0;
-		this.fishes.length = 0;
-		this.watchIds.length = 0;
-		this.intervalCount = this.MAX_INTERVAL_COUNT;
-		this.width = this.$container.width();
-		this.height = this.$container.height();
-		this.fishCount = this.FISH_COUNT * this.width / 500 * this.height / 500;
-		this.$canvas.attr({width : this.width, height : this.height});
-		this.reverse = false;
-		
-		this.fishes.push(new FISH(this));
-		this.createSurfacePoints();
-	},
-	watchWindowSize : function(){
-		this.clearTimer();
-		this.tmpWidth = this.$window.width();
-		this.tmpHeight = this.$window.height();
-		this.watchIds.push(setTimeout(this.jdugeToStopResize, this.WATCH_INTERVAL));
-	},
-	clearTimer : function(){
-		while(this.watchIds.length > 0){
-			clearTimeout(this.watchIds.pop());
-		}
-	},
-	jdugeToStopResize : function(){
-		var width = this.$window.width(),
-			height = this.$window.height(),
-			stopped = (width == this.tmpWidth && height == this.tmpHeight);
-			
-		this.tmpWidth = width;
-		this.tmpHeight = height;
-		
-		if(stopped){
-			this.setup();
-		}
-	},
-	bindEvent : function(){
-		this.$window.on('resize', this.watchWindowSize);
-		this.$container.on('mouseenter', this.startEpicenter);
-		this.$container.on('mousemove', this.moveEpicenter);
-		this.$container.on('click', this.reverseVertical);
-	},
-	getAxis : function(event){
-		var offset = this.$container.offset();
-		
-		return {
-			x : event.clientX - offset.left + this.$window.scrollLeft(),
-			y : event.clientY - offset.top + this.$window.scrollTop()
-		};
-	},
-	startEpicenter : function(event){
-		this.axis = this.getAxis(event);
-	},
-	moveEpicenter : function(event){
-		var axis = this.getAxis(event);
-		
-		if(!this.axis){
-			this.axis = axis;
-		}
-		this.generateEpicenter(axis.x, axis.y, axis.y - this.axis.y);
-		this.axis = axis;
-	},
-	generateEpicenter : function(x, y, velocity){
-		if(y < this.height / 2 - this.THRESHOLD || y > this.height / 2 + this.THRESHOLD){
-			return;
-		}
-		var index = Math.round(x / this.pointInterval);
-		
-		if(index < 0 || index >= this.points.length){
-			return;
-		}
-		this.points[index].interfere(y, velocity);
-	},
-	reverseVertical : function(){
-		this.reverse = !this.reverse;
-		
-		for(var i = 0, count = this.fishes.length; i < count; i++){
-			this.fishes[i].reverseVertical();
-		}
-	},
-	controlStatus : function(){
-		for(var i = 0, count = this.points.length; i < count; i++){
-			this.points[i].updateSelf();
-		}
-		for(var i = 0, count = this.points.length; i < count; i++){
-			this.points[i].updateNeighbors();
-		}
-		if(this.fishes.length < this.fishCount){
-			if(--this.intervalCount == 0){
-				this.intervalCount = this.MAX_INTERVAL_COUNT;
-				this.fishes.push(new FISH(this));
-			}
-		}
-	},
-	render : function(){
-		requestAnimationFrame(this.render);
-		this.controlStatus();
-		this.context.clearRect(0, 0, this.width, this.height);
-		this.context.fillStyle = '#FFFFFF';
-		
-		for(var i = 0, count = this.fishes.length; i < count; i++){
-			this.fishes[i].render(this.context);
-		}
-		this.context.save();
-		this.context.globalCompositeOperation = 'xor';
-		this.context.beginPath();
-		this.context.moveTo(0, this.reverse ? 0 : this.height);
-		
-		for(var i = 0, count = this.points.length; i < count; i++){
-			this.points[i].render(this.context);
-		}
-		this.context.lineTo(this.width, this.reverse ? 0 : this.height);
-		this.context.closePath();
-		this.context.fill();
-		this.context.restore();
-	}
-};
-var SURFACE_POINT = function(renderer, x){
-	this.renderer = renderer;
-	this.x = x;
-	this.init();
-};
-SURFACE_POINT.prototype = {
-	SPRING_CONSTANT : 0.03,
-	SPRING_FRICTION : 0.9,
-	WAVE_SPREAD : 0.3,
-	ACCELARATION_RATE : 0.01,
-	
-	init : function(){
-		this.initHeight = this.renderer.height * this.renderer.INIT_HEIGHT_RATE;
-		this.height = this.initHeight;
-		this.fy = 0;
-		this.force = {previous : 0, next : 0};
-	},
-	setPreviousPoint : function(previous){
-		this.previous = previous;
-	},
-	setNextPoint : function(next){
-		this.next = next;
-	},
-	interfere : function(y, velocity){
-		this.fy = this.renderer.height * this.ACCELARATION_RATE * ((this.renderer.height - this.height - y) >= 0 ? -1 : 1) * Math.abs(velocity);
-	},
-	updateSelf : function(){
-		this.fy += this.SPRING_CONSTANT * (this.initHeight - this.height);
-		this.fy *= this.SPRING_FRICTION;
-		this.height += this.fy;
-	},
-	updateNeighbors : function(){
-		if(this.previous){
-			this.force.previous = this.WAVE_SPREAD * (this.height - this.previous.height);
-		}
-		if(this.next){
-			this.force.next = this.WAVE_SPREAD * (this.height - this.next.height);
-		}
-	},
-	render : function(context){
-		if(this.previous){
-			this.previous.height += this.force.previous;
-			this.previous.fy += this.force.previous;
-		}
-		if(this.next){
-			this.next.height += this.force.next;
-			this.next.fy += this.force.next;
-		}
-		context.lineTo(this.x, this.renderer.height - this.height);
-	}
-};
-var FISH = function(renderer){
-	this.renderer = renderer;
-	this.init();
-};
-FISH.prototype = {
-	GRAVITY : 0.4,
-	
-	init : function(){
-		this.direction = Math.random() < 0.5;
-		this.x = this.direction ? (this.renderer.width + this.renderer.THRESHOLD) : -this.renderer.THRESHOLD;
-		this.previousY = this.y;
-		this.vx = this.getRandomValue(4, 10) * (this.direction ? -1 : 1);
-		
-		if(this.renderer.reverse){
-			this.y = this.getRandomValue(this.renderer.height * 1 / 10, this.renderer.height * 4 / 10);
-			this.vy = this.getRandomValue(2, 5);
-			this.ay = this.getRandomValue(0.05, 0.2);
-		}else{
-			this.y = this.getRandomValue(this.renderer.height * 6 / 10, this.renderer.height * 9 / 10);
-			this.vy = this.getRandomValue(-5, -2);
-			this.ay = this.getRandomValue(-0.2, -0.05);
-		}
-		this.isOut = false;
-		this.theta = 0;
-		this.phi = 0;
-	},
-	getRandomValue : function(min, max){
-		return min + (max - min) * Math.random();
-	},
-	reverseVertical : function(){
-		this.isOut = !this.isOut;
-		this.ay *= -1;
-	},
-	controlStatus : function(context){
-		this.previousY = this.y;
-		this.x += this.vx;
-		this.y += this.vy;
-		this.vy += this.ay;
-		
-		if(this.renderer.reverse){
-			if(this.y > this.renderer.height * this.renderer.INIT_HEIGHT_RATE){
-				this.vy -= this.GRAVITY;
-				this.isOut = true;
-			}else{
-				if(this.isOut){
-					this.ay = this.getRandomValue(0.05, 0.2);
-				}
-				this.isOut = false;
-			}
-		}else{
-			if(this.y < this.renderer.height * this.renderer.INIT_HEIGHT_RATE){
-				this.vy += this.GRAVITY;
-				this.isOut = true;
-			}else{
-				if(this.isOut){
-					this.ay = this.getRandomValue(-0.2, -0.05);
-				}
-				this.isOut = false;
-			}
-		}
-		if(!this.isOut){
-			this.theta += Math.PI / 20;
-			this.theta %= Math.PI * 2;
-			this.phi += Math.PI / 30;
-			this.phi %= Math.PI * 2;
-		}
-		this.renderer.generateEpicenter(this.x + (this.direction ? -1 : 1) * this.renderer.THRESHOLD, this.y, this.y - this.previousY);
-		
-		if(this.vx > 0 && this.x > this.renderer.width + this.renderer.THRESHOLD || this.vx < 0 && this.x < -this.renderer.THRESHOLD){
-			this.init();
-		}
-	},
-	render : function(context){
-		context.save();
-		context.translate(this.x, this.y);
-		context.rotate(Math.PI + Math.atan2(this.vy, this.vx));
-		context.scale(1, this.direction ? 1 : -1);
-		context.beginPath();
-		context.moveTo(-30, 0);
-		context.bezierCurveTo(-20, 15, 15, 10, 40, 0);
-		context.bezierCurveTo(15, -10, -20, -15, -30, 0);
-		context.fill();
-		
-		context.save();
-		context.translate(40, 0);
-		context.scale(0.9 + 0.2 * Math.sin(this.theta), 1);
-		context.beginPath();
-		context.moveTo(0, 0);
-		context.quadraticCurveTo(5, 10, 20, 8);
-		context.quadraticCurveTo(12, 5, 10, 0);
-		context.quadraticCurveTo(12, -5, 20, -8);
-		context.quadraticCurveTo(5, -10, 0, 0);
-		context.fill();
-		context.restore();
-		
-		context.save();
-		context.translate(-3, 0);
-		context.rotate((Math.PI / 3 + Math.PI / 10 * Math.sin(this.phi)) * (this.renderer.reverse ? -1 : 1));
-		
-		context.beginPath();
-		
-		if(this.renderer.reverse){
-			context.moveTo(5, 0);
-			context.bezierCurveTo(10, 10, 10, 30, 0, 40);
-			context.bezierCurveTo(-12, 25, -8, 10, 0, 0);
-		}else{
-			context.moveTo(-5, 0);
-			context.bezierCurveTo(-10, -10, -10, -30, 0, -40);
-			context.bezierCurveTo(12, -25, 8, -10, 0, 0);
-		}
-		context.closePath();
-		context.fill();
-		context.restore();
-		context.restore();
-		this.controlStatus(context);
-	}
-};
-$(function(){
-	RENDERER.init();
-});
+        // 鱼的类定义，用于表示单条鱼的属性和行为
+        function Fish() {
+            this.x = 0; // 鱼的初始x坐标
+            this.y = 0; // 鱼的初始y坐标
+            this.speedX = 0; // x方向速度
+            this.speedY = 0; // y方向速度
+            this.accelerationX = 0; // x方向加速度
+            this.accelerationY = 0; // y方向加速度
+            this.angle = 0; // 鱼的角度，用于确定方向
+            this.size = 20; // 鱼的大小，可调整
+            this.init = function () {
+                // 初始化鱼的位置等属性，随机分布在画布内
+                this.x = Math.random() * window.innerWidth;
+                this.y = Math.random() * window.innerHeight;
+                this.speedX = (Math.random() - 0.5) * 2;
+                this.speedY = (Math.random() - 0.5) * 2;
+            };
+            this.update = function () {
+                // 更新鱼的速度和位置
+                this.speedX += this.accelerationX;
+                this.speedY += this.accelerationY;
+                this.x += this.speedX;
+                this.y += this.speedY;
+                // 边界检测，鱼游出画布范围则重新初始化位置
+                if (this.x < -this.size || this.x > window.innerWidth + this.size ||
+                    this.y < -this.size || this.y > window.innerHeight + this.size) {
+                    this.init();
+                }
+            };
+            this.draw = function (ctx) {
+                // 绘制鱼的形状，这里简单用贝塞尔曲线绘制一个类似鱼的形状，可进一步美化
+                ctx.beginPath();
+                ctx.moveTo(this.x, this.y);
+                ctx.bezierCurveTo(this.x + this.size / 2, this.y - this.size / 2,
+                    this.x + this.size, this.y + this.size / 2, this.x + this.size / 2, this.y + this.size);
+                ctx.closePath();
+                ctx.fillStyle ='steelblue'; // 设置鱼的颜色，可调整
+                ctx.fill();
+            };
+        }
+
+        // 水面点的类定义，用于表示水面波动的各个点的属性和行为
+        function WaterPoint(x, y) {
+            this.x = x; // 点的x坐标
+            this.y = y; // 点的y坐标
+            this.targetY = y; // 目标y坐标，用于波动效果
+            this.speed = 0; // 点的波动速度
+            this.update = function () {
+                // 更新点的位置，向目标位置移动
+                this.speed += (this.targetY - this.y) * 0.05;
+                this.y += this.speed;
+            };
+            this.draw = function (ctx) {
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, 2, 0, 2 * Math.PI);
+                ctx.closePath();
+                ctx.fillStyle = 'lightblue'; // 设置水的颜色，可调整
+                ctx.fill();
+            };
+        }
+
+        // 渲染器类，用于整体管理动画的渲染，包括鱼和水的绘制等
+        function Renderer() {
+            this.canvas = document.getElementById('fish-canvas');
+            this.ctx = this.canvas.getContext('canvas');
+            this.width = window.innerWidth;
+            this.height = window.innerHeight;
+            this.fishes = [];
+            this.waterPoints = [];
+            this.init = function () {
+                // 初始化画布尺寸、鱼和水的点
+                this.canvas.width = this.width;
+                this.canvas.height = this.height;
+                for (let i = 0; i < 10; i++) { // 创建一定数量的鱼，可调整数量
+                    let fish = new Fish();
+                    fish.init();
+                    this.fishes.push(fish);
+                }
+                const pointCount = 50; // 水的点的数量，可调整
+                const pointGap = this.width / pointCount;
+                for (let x = 0; x < this.width; x += pointGap) {
+                    let point = new WaterPoint(x, this.height / 2);
+                    this.waterPoints.push(point);
+                }
+            };
+            this.update = function () {
+                // 更新鱼和水的点的状态
+                for (let fish of this.fishes) {
+                    fish.update();
+                }
+                for (let point of this.waterPoints) {
+                    point.update();
+                }
+            };
+            this.draw = function () {
+                // 绘制鱼和水
+                this.ctx.clearRect(0, 0, this.width, this.height);
+                for (let fish of this.fishes) {
+                    fish.draw(this.ctx);
+                }
+                this.ctx.beginPath();
+                this.ctx.moveTo(0, this.height / 2);
+                for (let point of this.waterPoints) {
+                    point.draw(this.ctx);
+                    this.ctx.lineTo(point.x, point.y);
+                }
+                this.ctx.lineTo(this.width, this.height / 2);
+                this.ctx.closePath();
+                this.ctx.fillStyle = 'lightblue';
+                this.ctx.fill();
+            };
+            this.animate = function () {
+                // 动画循环，不断更新和绘制
+                requestAnimationFrame(() => this.animate());
+                this.update();
+                this.draw();
+            };
+        }
+
+        const renderer = new Renderer();
+        renderer.init();
+        renderer.animate();
